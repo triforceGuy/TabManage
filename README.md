@@ -1,5 +1,8 @@
-# Project Name
-> Outline a brief description of your project.
+# Tab Manager Project
+> 1.) Bianca Dominguez, Eri Midorikawa, Jessy Estrada, Nickolas Miller, Sarah Davidson
+> 2.) We are creating extension that will be able to organize your tabs while surfing the internet. 
+> 3.) Our target audience would be anyone who browses the internet. 
+> 4.) Our tab organizer will help make surfing the web easier. Instead of having multiple tabs open and having to jump between tabs, everything will be in once place; making it faster for the user.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
