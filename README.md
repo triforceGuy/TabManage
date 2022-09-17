@@ -23,24 +23,27 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- 1.) here is a link to a picture that I think would be a cute for an icon and we can take as an inspiration: 
+		- https://images.app.goo.gl/BCYj9Pmxtn1xUD467
+	
+- 2.) I think a little more expertise and money couldn't hurt :) 
 
 
 ## Technologies Used
-- Awesome technology 1
-- Awesome technology 2
-- Awesome technology 3
+- 1.) we found this API templet that we might use later on:
+		-https://developer.chrome.com/docs/extensions/reference/tabs/
+- 2.) vscode, gitkraken, bitbucket, Jira.
+
 
 
 ## Features
 List the ready features here:
-- Style of organization - tabs are organized by the content the contain and is able to open all tabs with one click. - a mixture of Bianca's and Jessy's story.
-- Neighboring tabs - similar tabs will be next to eachother. - Jessy's story. 
-- Color scheme - different tabs will have different colors. - Sarah's story.
+- 1.) Style of organization - tabs are organized by the content the contain and is able to open all tabs with one click. 
+		- a mixture of Bianca's and Jessy's story.
+
+- 2.) Neighboring tabs - similar tabs will be next to eachother. - Jessy's story.
+
+- 3.)Color scheme - different tabs will have different colors. - Sarah's story.
 
 
 ## Screenshots
