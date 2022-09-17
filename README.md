@@ -1,7 +1,10 @@
 # Tab Manager Project
 > 1.) Bianca Dominguez, Eri Midorikawa, Jessy Estrada, Nickolas Miller, Sarah Davidson
+
 > 2.) We are creating extension that will be able to organize your tabs while surfing the internet. 
+
 > 3.) Our target audience would be anyone who browses the internet. 
+
 > 4.) Our tab organizer will help make surfing the web easier. Instead of having multiple tabs open and having to jump between tabs, everything will be in once place; making it faster for the user.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
@@ -28,16 +31,16 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Awesome technology 1
+- Awesome technology 2
+- Awesome technology 3
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Style of organization - tabs are organized by the content the contain and is able to open all tabs with one click. - a mixture of Bianca's and Jessy's story.
+- Neighboring tabs - similar tabs will be next to eachother. - Jessy's story. 
+- Color scheme - different tabs will have different colors. - Sarah's story.
 
 
 ## Screenshots
