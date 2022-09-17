@@ -33,6 +33,7 @@
 - 1.) we found this API templet that we might use later on:
 		-https://developer.chrome.com/docs/extensions/reference/tabs/
 - 2.) vscode, gitkraken, bitbucket, Jira.
+- 3.) Google Chrome
 
 
 
