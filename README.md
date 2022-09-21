@@ -1,12 +1,13 @@
 # Tab Manager Project
 > 1.) Bianca Dominguez, Eri Midorikawa, Jessy Estrada, Nickolas Miller, Sarah Davidson
 
-> 2.) We are creating extension that will be able to organize your tabs while surfing the internet. 
+> 2.) We are creating extension that will allow users to organize browser tabs to their liking. 
 
-> 3.) Our target audience would be anyone who browses the internet. 
+> 3.) Our target audience is anyone who often bookmarks their browser tabs. 
 
-> 4.) Our tab organizer will help make surfing the web easier. Instead of having multiple tabs open and having to jump between tabs, everything will be in once place; making it faster for the user.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> 4.) Our tab organizer will help make surfing the web easier. Instead of having multiple tabs open and having to jump between tabs, everything will be categorized and organized; making it faster and easier for the user.
+
+> Live demo soon! [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -24,27 +25,34 @@
 
 ## General Information
 - 1.) here is a link to a picture that I think would be a cute for an icon and we can take as an inspiration: 
-		- https://images.app.goo.gl/BCYj9Pmxtn1xUD467
+		![Remote Image](https://images.app.goo.gl/BCYj9Pmxtn1xUD467)
+		
 	
 - 2.) I think a little more expertise and money couldn't hurt :) 
 
 
 ## Technologies Used
-- 1.) we found this API templet that we might use later on:
+- 1.) We found this API template that we will add features to:
 		-https://developer.chrome.com/docs/extensions/reference/tabs/
 - 2.) vscode, gitkraken, bitbucket, Jira.
 - 3.) Google Chrome
+- 4.) JavaScript
+- 5.) React
+
 
 
 
 ## Features
-List the ready features here:
-- 1.) Style of organization - tabs are organized by the content the contain and is able to open all tabs with one click. 
-		- a mixture of Bianca's and Jessy's story.
-
-- 2.) Neighboring tabs - similar tabs will be next to eachother. - Jessy's story.
-
-- 3.)Color scheme - different tabs will have different colors. - Sarah's story.
+Future Features:
+1.) User can categorize tab groups by category of content they contain.(such as finance, entertainment, news, etc).
+2.) User can open all tabs within one category with one click.
+3.) User can group similar category of tabs close together.
+4.) User can automatically organize tabs based on previously set user preferences.
+5.) User can organize tabs across the top or side of the screen.
+6.) User can set a color scheme for categories of tabs.  
+7.) User can share tabs with anyone.
+8.) User can change font sizes or color. 
+9.) User can add description(summary) of the categories of tabs.
 
 
 ## Screenshots
@@ -56,7 +64,7 @@ List the ready features here:
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
-
+- Setup intructions coming soon!
 
 ## Usage
 How does one go about using it?
