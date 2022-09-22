@@ -38,6 +38,8 @@
 - 3.) Google Chrome
 - 4.) JavaScript
 - 5.) React
+- 6.) we found this open source code that we will add features to: 
+		-https://github.com/chrome-extension/Tab-Manager-Plus
 
 
 
