@@ -1,0 +1,16 @@
+Research How to Upload Picture and Apply It
+
+Since I am totally new to Javascript/HTML/CSS, I need to learn how to upload/apply the image to the extension.
+In this research, I need to research 2 things. First is learning the implementation of uploading user's image and apply to the background theme.
+Second is identifying which file and which codes in our extension(Tab Manager Plus) is related to the background theme.
+
+As a result of the research, I need to add new css file in css folder and set width/height/position of the image, and then I need to add new Javascript file to implement uploadinf image.
+
+This research is related to the tasks "Create a function that allow user can upload picture" and "Create a function that apply user's picture to the background theme"
+
+
+
+
+
+
+
