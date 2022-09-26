@@ -1,6 +1,13 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# Tab Manager Project
+> 1.) Bianca Dominguez, Eri Midorikawa, Jessy Estrada, Nickolas Miller, Sarah Davidson
+
+> 2.) We are creating extension that will allow users to organize browser tabs to their liking. 
+
+> 3.) Our target audience is anyone who often bookmarks their browser tabs. 
+
+> 4.) Our tab organizer will help make surfing the web easier. Instead of having multiple tabs open and having to jump between tabs, everything will be categorized and organized; making it faster and easier for the user.
+
+> Live demo soon! [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -17,24 +24,37 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- 1.) here is a link to a picture that I think would be a cute for an icon and we can take as an inspiration: 
+		![Remote Image](https://images.app.goo.gl/BCYj9Pmxtn1xUD467)
+		
+	
+- 2.) I think a little more expertise and money couldn't hurt :) 
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- 1.) We found this API template that we will add features to:
+		-https://developer.chrome.com/docs/extensions/reference/tabs/
+- 2.) vscode, gitkraken, bitbucket, Jira.
+- 3.) Google Chrome
+- 4.) JavaScript
+- 5.) React
+- 6.) we found this open source code that we will add features to: 
+		-https://github.com/chrome-extension/Tab-Manager-Plus
+
+
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+Future Features:
+1.) User can categorize tab groups by category of content they contain.(such as finance, entertainment, news, etc).
+2.) User can open all tabs within one category with one click.
+3.) User can group similar category of tabs close together.
+4.) User can automatically organize tabs based on previously set user preferences.
+5.) User can organize tabs across the top or side of the screen.
+6.) User can set a color scheme for categories of tabs.  
+7.) User can share tabs with anyone.
+8.) User can change font sizes or color. 
+9.) User can add description(summary) of the categories of tabs.
 
 
 ## Screenshots
@@ -46,7 +66,7 @@ List the ready features here:
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
-
+- Setup intructions coming soon!
 
 ## Usage
 How does one go about using it?
