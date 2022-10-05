@@ -1,0 +1,11 @@
+Result of ticket TAB-36 https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?selectedIssue=TAB-36
+Main File: Windows.js (This file is usually called App.js in other places I've seen it)
+        (Change colors)
+        On and after line 167 there are React.createElementcalls that change colors in the tab manager.
+outlib folder: This folder holds the functionality of the extension.
+lib folder: In all files named .jsx you can use HTML to add things to the UI like words, buttons, etc.
+images folder: Holds all icons for the tab manager extension.
+css folder: Here we can add files to edit the colors, font size, animations, etc. 
+
+
+
