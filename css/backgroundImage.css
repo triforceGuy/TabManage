@@ -1,5 +1,10 @@
-#clock {
-    background-image:url('');
-    background-size: cover;
-    background-color: #cccccc;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#background_image{
+    background-image: cover;
 }
