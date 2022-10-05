@@ -1,5 +1,16 @@
 "use strict";
 
+const image_input = document.querySelector("#image_input");
+var uploaded_image = "";
+image_input.addEventListener("change", function(){
+	const reader = new FileReader();
+	reader.addEventListener("load", () => {
+		uploaded_image = reader.result
+		document.querySelector("#background_image").style.backgroundImage = url($(uploaded_image))
+	});
+	reader.readAsDataURL(this.file[0]);
+})
+
 class TabOptions extends React.Component {
 	constructor(props) {
 		super(props);
@@ -162,6 +173,21 @@ class TabOptions extends React.Component {
 					<div className="option-description">
 						Disables/enables window titles. <br />
 						<i>By default: enabled</i>
+					</div>
+				</div>
+				<div className="App">
+					<input
+						type="file"
+						accept="image/"
+						id="background_image"
+						name="background_image"
+					/><br/><br/>
+					<button onClick={this.image_input}>Set a Background Image!</button>
+					<label className="textlabel" htmlFor="background-image" style={{ whiteSpace: "pre", lineHeight: "2rem" }}>
+						Background image
+					</label>
+					<div className="option-description">
+							Change the background image.
 					</div>
 				</div>
 			</div>,
@@ -415,3 +441,24 @@ class TabOptions extends React.Component {
 		);
 	}
 }
+
+
+  
+
+class backgroundImage extends Component{
+	fileSelectedHandler = event =>{console.log(event);}
+
+	render(){
+		return (
+			<div className="app">
+				<input 
+					type = "file" 
+					id = "image_input" 
+					accept = "image/png, image/jpg"							
+					name = "background_image"
+					onChange = {this.fileSelectedHandler}></input>				
+				</div>
+		);
+	}
+}
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
