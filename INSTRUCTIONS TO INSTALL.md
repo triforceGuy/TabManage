@@ -7,3 +7,7 @@ Step 5: Click "Load Unpacked" and navigate to file you saved from the link and s
 At this point a puzzle piece will appear on the chrome browser (just to the right of the bookmark star) if no other extensions have been installed. 
 
 To start the extension, click the puzzle piece and select the tab organizer extension that you just installed. 
+
+
+The URL FOLLOWS:
+https://mega.nz/folder/FP9GHCaB#VKAeIFjGuQTpnI9XTIc3eQ
