@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "app1": "^1.0.0",
+    "react-login": "^0.1.0"
+  }
+}
