@@ -345,7 +345,7 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 			React.createElement("div", { className: "optionsBox" },
 				React.createElement("div", { className: "toggle-box" },
 					React.createElement("h4", null, "Right mouse button"),
-					React.createElement("div", { className: "option-description" }, "With the right mouse button you can select tabs"),
+					React.createElement("div", { className: "option-description" }, "With the right mouse button you can select tabs."),
 					React.createElement("h4", null, "Shift+Right mouse button"),
 					React.createElement("div", { className: "option-description" }, "While holding shift, and pressing the right mouse button you can select all tabs between the last selected tab and the current one"),
 
