@@ -139,7 +139,21 @@ Contributions
 <a name="retro"></a>
 ## Retrospective
 	- What Went Well?:
+		- 
+		-
+		-
+		-
+		Eri:
+		Sarah:
+		Nick:
+		Jessy:
+		Bianca:
 	- What can I do better?:
+		Eri:
+		Sarah:
+		Nick:
+		Jessy:
+		Bianca:
 	- What Might Be Impeding Us from Performing Better?
 
 <a name="room-for-improvement"></a>
