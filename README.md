@@ -23,6 +23,7 @@ Our team is creating an extension that will allow users to organize their browse
 <a name="general-information"></a>
 ## General Information
 As our team took on the role of editing and modifying the tab extension, we realized that there were some features that we ourselves would have loved to have been implemented. So we took on the task of adding those additions and then some.  
+
 - 1.) here is a link to a picture that I think would be a cute for an icon and we can take as an inspiration: 
 		![Remote Image](https://images.app.goo.gl/BCYj9Pmxtn1xUD467)
 		
