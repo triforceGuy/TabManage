@@ -134,15 +134,13 @@ Contributions
 - Eri:
 - Sarah:
 - Nick
-- Jessy: My part is going to create the buttons on the system settings page as well implement the new  
-theme for our extension
-
-- Bianca
+- Jessy: My part is going to create the buttons on the system settings page as well implement the new theme for our extension.
+- Bianca: I'll work closely with Jessy to implement the functionality and theme changes we presentented on in class. 
 
 <a name="retro"></a>
 ## Retrospective
 	- What Went Well?:
-		- 
+		- The whole team worked really together. 
 		-
 		-
 		-
@@ -150,16 +148,15 @@ theme for our extension
 		Sarah:
 		Nick:
 		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
-
-		Bianca:
+		Bianca: Our team knows how to accomplish a goal and everyone is held accountable.
 	- What can I do better?:
 		Eri:
 		Sarah:
 		Nick:
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
-		
-		Bianca:
+		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
+	Our team can benefit from communicating more often. 
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
