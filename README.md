@@ -134,7 +134,9 @@ Contributions
 - Eri:
 - Sarah:
 - Nick
-- Jessy
+- Jessy: My part is going to create the buttons on the system settings page as well implement the new  
+theme for our extension
+
 - Bianca
 
 <a name="retro"></a>
@@ -147,13 +149,15 @@ Contributions
 		Eri:
 		Sarah:
 		Nick:
-		Jessy:
+		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
+
 		Bianca:
 	- What can I do better?:
 		Eri:
 		Sarah:
 		Nick:
-		Jessy:
+		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
+		
 		Bianca:
 	- What Might Be Impeding Us from Performing Better?
 
