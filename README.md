@@ -152,14 +152,14 @@ Contributions
 ## Retrospective
 	- What Went Well?:
 		- The whole team worked really together. 
-		-
-		-
-		-
+		- Our team knows how to accomplish a goal and everyone is held accountable.
+		- We have great communication when we do communicate.
+		- We learn well together because we all help each other out.
 		Eri: We could collaborate very well in terms of splitting tasks and communicate about tasks.
 		Sarah: I think our team has a good balance and we all respect and work well with each other.
 		Nick:
 		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
-		Bianca: Our team knows how to accomplish a goal and everyone is held accountable.
+		Bianca: I learned so much already about chrome extensions, the team really helped with this by showing me how to run/edit files.
 	- What can I do better?:
 		Eri: I have to understand more about the existing code. My first sprint took way longer than my estimate and did not work well due to the lack of knowleadge about REACT/HTML/Javascript/CSS.
 		Sarah: I can do better about actually pulling from the master and practicing git. 
