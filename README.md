@@ -137,7 +137,7 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-6?atlOrigin=eyJpIjoiYjdkZjQ3MDgxM2NhNGVkNzk3Y2E1NDgxZmY2OTdmMWEiLCJwIjoiaiJ9">`TAB-6 - Create a simple web page with Javascript and React that holds description of TAB organizer`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/fbfe659dc13aec11b438510fc299235e775761e2
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-40?atlOrigin=eyJpIjoiNGJkMmMzOWY3MzU1NGRiYmI3YWY4NzMzOWJmNjczMDAiLCJwIjoiaiJ9">`TAB-40 - Create CSS file with theme`</a>
-		- Reference
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/8561fe9dc99037ad4d676597545dfc2f2c4c0b74
 
 
 <a name="next-steps"></a>
