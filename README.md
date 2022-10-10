@@ -167,8 +167,8 @@ Contributions
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
 		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
-	Our team can benefit from communicating more often. It would also be helpful if we pulled from master more often so that we had less conflicts in our files. 
-	We can also do a better job at having more specific goals in mind when planning our sprint. 
+	Our team can benefit from communicating more often. It would also be helpful if we pulled from master so that we had less conflicts in our files. 
+	We can also do a better job at having more specific goals in mind when planning our sprint. Understanding the existing code and sharing our knowledge will also benefit us.
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
