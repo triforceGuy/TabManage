@@ -143,7 +143,7 @@ Contributions
 <a name="next-steps"></a>
 ## Next Steps
 - Eri:
-- Sarah:
+- Sarah: I will be working with Nick on integrating out login functions. Then work with improving the login system with a better database. 
 - Nick
 - Jessy: My part is going to create the buttons on the system settings page as well implement the new theme for our extension.
 - Bianca: I'll work closely with Jessy to implement the functionality and theme changes we presentented on in class. 
@@ -156,13 +156,13 @@ Contributions
 		-
 		-
 		Eri:
-		Sarah:
+		Sarah: I think our team has a good balance and we all respect and work well with each other.
 		Nick:
 		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
 		Bianca: Our team knows how to accomplish a goal and everyone is held accountable.
 	- What can I do better?:
 		Eri:
-		Sarah:
+		Sarah: I can do better about actually pulling from the master and practicing git. 
 		Nick:
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
 		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
@@ -174,13 +174,13 @@ Contributions
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
+- Practicing git 
 - Improvement to be done 2
 <a name="acknowledgements"></a>
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- Sarah created her login based on [this tutorial](https://contactmentor.com/login-form-react-js-code/).
 - Many thanks to...
 
 
