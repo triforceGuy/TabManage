@@ -144,7 +144,7 @@ Contributions
 ## Next Steps
 - Eri:　I will work on research what is wrong with my feature I added (changing background image) and will fix it. 
 - Sarah: I will be working with Nick on integrating out login functions. Then work with improving the login system with a better database. 
-- Nick
+- Nick: I will be working with Sarah on finishing the login functions and connecting it with our app. In addition to this adding a registration   feature is important. 
 - Jessy: My part is going to create the buttons on the system settings page as well implement the new theme for our extension.
 - Bianca: I'll work closely with Jessy to implement the functionality and theme changes we presentented on in class. 
 
@@ -154,20 +154,22 @@ Contributions
 		- The whole team worked really together. 
 		- Our team knows how to accomplish a goal and everyone is held accountable.
 		- We have great communication when we do communicate.
-		- We learn well together because we all help each other out.
+		- Nick: We learn well together because we all help each other out.
 		Eri: We could collaborate very well in terms of splitting tasks and communicate about tasks.
 		Sarah: I think our team has a good balance and we all respect and work well with each other.
-		Nick:
+		Nick: I will be working with Sarah on finishing the login functions and connecting it with our app. In addition to this adding a registration feature is important. 
 		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
 		Bianca: I learned so much already about chrome extensions, the team really helped with this by showing me how to run/edit files.
 	- What can I do better?:
 		Eri: I have to understand more about the existing code. My first sprint took way longer than my estimate and did not work well due to the lack of knowleadge about REACT/HTML/Javascript/CSS.
 		Sarah: I can do better about actually pulling from the master and practicing git. 
-		Nick:
+		Nick: I can split up my work into smaller parts in order to push more frequently. This sprint I had one large commit rather than smaller ones. One thing that can help me imporve upon this is doing a better job planning.
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
 		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
 	Our team can benefit from communicating more often. 
+	Our team can benefit from a better understanding of react.
+	Our team can benefit from planning more effectively.
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
@@ -176,11 +178,13 @@ Include areas you believe need improvement / could be improved. Also add TODOs f
 Room for improvement:
 - Practicing git 
 - Improvement to be done 2
+- Planning out code in advance
 <a name="acknowledgements"></a>
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
 - Sarah created her login based on [this tutorial](https://contactmentor.com/login-form-react-js-code/).
+- Nick created his login based on (https://www.youtube.com/watch?v=91qEdc6dSUs)
 - Many thanks to...
 
 
