@@ -103,7 +103,7 @@ Contributions
 
 - **Nick**:
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-65?atlOrigin=eyJpIjoiNmRkODcyMjFjNmZiNGFiMzk3NGQ3YTBlMjBmMjhhYTAiLCJwIjoiaiJ9">`TAB-65 - Create a function that checks if admins passwords is correct`</a>
-		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/3422b4d483ead50d170635fe8d36264d0337eb29
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/92edead783b40754669ca7fa43e83ad6eceeab97
 	- <a href = "https://cs3398f22cardassians.atlassian.net/browse/TAB-74?atlOrigin=eyJpIjoiMDJjMzk4YTBkM2E0NGY2ZDgxYTliNGE1NDBmOGYyNjYiLCJwIjoiaiJ9">`TAB-74 - Create a link in tab options to login as an admin`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/3422b4d483ead50d170635fe8d36264d0337eb29
 	- <a href = "https://cs3398f22cardassians.atlassian.net/browse/TAB-70?atlOrigin=eyJpIjoiMmY5OGJhZWRjYzc0NGI2MWFiOTE4ODY0ZmQyZThkMzYiLCJwIjoiaiJ9">`TAB-70 - Create a function that requires user’s password to meet the login conditions`</a>
@@ -163,7 +163,7 @@ Contributions
 	- What can I do better?:
 		Eri: I have to understand more about the existing code. My first sprint took way longer than my estimate and did not work well due to the lack of knowleadge about REACT/HTML/Javascript/CSS.
 		Sarah: I can do better about actually pulling from the master and practicing git. 
-		Nick: I can split up my work into smaller parts in order to push more frequently. This sprint I had one large commit rather than smaller ones. One thing that can help me imporve upon this is doing a better job planning.
+		Nick: I can split up my work into smaller parts in order to push more frequently. This sprint I had one large commit rather than smaller ones. One thing that can help me imporve upon this is doing a better job planning the code out better prior to working on it.
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
 		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
