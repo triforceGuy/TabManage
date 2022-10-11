@@ -121,12 +121,12 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-41?atlOrigin=eyJpIjoiYzZiNzM1OTA0NjczNDA2M2IxZmEwOWRlNjc0YjEyZTgiLCJwIjoiaiJ9">`TAB-41 - Understand how Dark/Light theme interchange`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/78e42d224cee3f33eafd07a05a85102a3ee87421
 <br />
-- **Sarah**:
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-63?atlOrigin=eyJpIjoiOWNjNzU3OTdjMDAwNDIyNmI4ZDVkYWZkNjYwODhlMWEiLCJwIjoiaiJ9">`TAB-63 - Research how to make a login UI`</a>
+- **Sarah**: Created a very simple log in using react. Right now it works on a simple server and a simple database. 
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/src/TAB-63-research-how-to-make-a-log-in-ui/">`TAB-63 - Research how to make a login UI`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/f0db2396e424c2bddfc89644c58d67b1c2532be1
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-64?atlOrigin=eyJpIjoiOGQzODU4ODdmMjBlNDI0ZmEzNTJiMWYzY2Y1M2Q5YzgiLCJwIjoiaiJ9">`TAB-64 - Create a function that prompts a user to enter their username`</a>
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/src/TAB-64-create-a-function-that-prompts-a-/">`TAB-64 - Create a function that prompts a user to enter their username`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/f0db2396e424c2bddfc89644c58d67b1c2532be1
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-67?atlOrigin=eyJpIjoiOTNjY2IxZTc2ZGEzNGE5ZGE3MmYzZjhmYzljYjVhNDciLCJwIjoiaiJ9">`TAB-67 - Create function to match username and password`</a>
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/pull-requests/6/pull-request-login_sarah">`TAB-67 - Create function to match username and password`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/8cce8171f5cf3df3d75438ec8909a621575593a3
 <br />
 - **Bianca**:
