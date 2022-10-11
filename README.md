@@ -137,7 +137,7 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-6?atlOrigin=eyJpIjoiYjdkZjQ3MDgxM2NhNGVkNzk3Y2E1NDgxZmY2OTdmMWEiLCJwIjoiaiJ9">`TAB-6 - Create a simple web page with Javascript and React that holds description of TAB organizer`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/fbfe659dc13aec11b438510fc299235e775761e2
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-40?atlOrigin=eyJpIjoiNGJkMmMzOWY3MzU1NGRiYmI3YWY4NzMzOWJmNjczMDAiLCJwIjoiaiJ9">`TAB-40 - Create CSS file with theme`</a>
-		- Reference
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/8561fe9dc99037ad4d676597545dfc2f2c4c0b74
 
 
 <a name="next-steps"></a>
@@ -167,9 +167,9 @@ Contributions
 		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
 		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
-	Our team can benefit from communicating more often. 
-	Our team can benefit from a better understanding of react.
-	Our team can benefit from planning more effectively.
+	Our team can benefit from communicating more often. It would also be helpful if we pulled from master so that we had less conflicts in our files. 
+	We can also do a better job at having more specific goals in mind when planning our sprint. Understanding the existing code and sharing our knowledge will also benefit us.
+	Our team can also benefit from a greater understanding of react in general.
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
