@@ -11,3 +11,4 @@ To start the extension, click the puzzle piece and select the tab organizer exte
 
 The URL FOLLOWS:
 https://mega.nz/folder/FP9GHCaB#VKAeIFjGuQTpnI9XTIc3eQ
+:D
