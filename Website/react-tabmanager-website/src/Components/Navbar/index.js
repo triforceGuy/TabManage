@@ -1,9 +1,10 @@
 import React from 'react'
+import { Nav } from './NavbarElements'
 
 const Navbar = () => {
   return (
     <div>
-        <h1>Navbar</h1>
+        <Nav>Weeee WOOOOOOOOOOOO</Nav>
     </div>
   )
 }
