@@ -27,6 +27,7 @@ class TabManager extends React.Component {
 		var windowTitles = true;
 		var compact = false;
 		var dark = false;
+		var space = false;
 		var tabactions = true;
 		var badge = true;
 		var sessionsFeature = false;
@@ -47,6 +48,7 @@ class TabManager extends React.Component {
 			if (typeof localStorage["windowTitles"] === "undefined") localStorage["windowTitles"] = "1";
 			if (typeof localStorage["compact"] === "undefined") localStorage["compact"] = "0";
 			if (typeof localStorage["dark"] === "undefined") localStorage["dark"] = "0";
+			if (typeof localStorage["space"] === "undefined") localStorage["space"] = "0";
 			if (typeof localStorage["tabactions"] === "undefined") localStorage["tabactions"] = "1";
 			if (typeof localStorage["badge"] === "undefined") localStorage["badge"] = "1";
 			if (typeof localStorage["sessionsFeature"] === "undefined") localStorage["sessionsFeature"] = "0";
@@ -63,6 +65,7 @@ class TabManager extends React.Component {
 			windowTitles = this.toBoolean(localStorage["windowTitles"]);
 			compact = this.toBoolean(localStorage["compact"]);
 			dark = this.toBoolean(localStorage["dark"]);
+			space = this.toBoolean(localStorage["space"]);
 			tabactions = this.toBoolean(localStorage["tabactions"]);
 			badge = this.toBoolean(localStorage["badge"]);
 			sessionsFeature = this.toBoolean(localStorage["sessionsFeature"]);
@@ -72,6 +75,12 @@ class TabManager extends React.Component {
 
 		if (dark) {
 			document.body.className = "dark";
+		} else {
+			document.body.className = "";
+		}
+
+		if (space) {
+			document.body.className = "space";
 		} else {
 			document.body.className = "";
 		}
@@ -92,6 +101,7 @@ class TabManager extends React.Component {
 			tabHeight: tabHeight,
 			compact: compact,
 			dark: dark,
+			space: space,
 			tabactions: tabactions,
 			badge: badge,
 			hideWindows: hideWindows,
@@ -129,6 +139,7 @@ class TabManager extends React.Component {
 		this.clearSelection = this.clearSelection.bind(this);
 		this.compactText = this.compactText.bind(this);
 		this.darkText = this.darkText.bind(this);
+		this.spaceText = this.spaceText.bind(this);
 		this.deleteTabs = this.deleteTabs.bind(this);
 		this.discardTabs = this.discardTabs.bind(this);
 		this.donate = this.donate.bind(this);
@@ -155,6 +166,7 @@ class TabManager extends React.Component {
 		this.toggleBadge = this.toggleBadge.bind(this);
 		this.toggleCompact = this.toggleCompact.bind(this);
 		this.toggleDark = this.toggleDark.bind(this);
+		this.toggleSpace = this.toggleSpace.bind(this);
 		this.toggleFilterMismatchedTabs = this.toggleFilterMismatchedTabs.bind(this);
 		this.toggleHide = this.toggleHide.bind(this);
 		this.toggleOpenInOwnTab = this.toggleOpenInOwnTab.bind(this);
@@ -351,6 +363,7 @@ class TabManager extends React.Component {
 					<TabOptions
 						compact={this.state.compact}
 						dark={this.state.dark}
+						space={this.state.space}
 						animations={this.state.animations}
 						windowTitles={this.state.windowTitles}
 						tabLimit={this.state.tabLimit}
@@ -371,6 +384,7 @@ class TabManager extends React.Component {
 						toggleWindowTitles={this.toggleWindowTitles}
 						toggleCompact={this.toggleCompact}
 						toggleDark={this.toggleDark}
+						toggleSpace={this.toggleSpace}
 						toggleTabActions={this.toggleTabActions}
 						changeTabLimit={this.changeTabLimit}
 						changeTabWidth={this.changeTabWidth}
@@ -388,6 +402,7 @@ class TabManager extends React.Component {
 						tabHeightText={this.tabHeightText}
 						compactText={this.compactText}
 						darkText={this.darkText}
+						spaceText={this.spaceText}
 						tabActionsText={this.tabActionsText}
 						getTip={this.getTip}
 					/>
@@ -1519,6 +1534,24 @@ class TabManager extends React.Component {
 			bottomText: "Dark mode inverts the layout - better on the eyes. Default : off"
 		});
 	}
+
+	toggleSpace() {
+		this.state.space = !this.state.space;
+		localStorage["space"] = this.state.space ? "1" : "0";
+		this.spaceText();
+		if (this.state.space) {
+			document.body.className = "space";
+		} else {
+			document.body.className = "";
+		}
+		this.forceUpdate();
+	}
+	spaceText() {
+		this.setState({
+			bottomText: "Space mode, for when you want a cool theme. Default : off"
+		});
+	}
+
 	toggleTabActions() {
 		this.state.tabactions = !this.state.tabactions;
 		localStorage["tabactions"] = this.state.tabactions ? "1" : "0";
