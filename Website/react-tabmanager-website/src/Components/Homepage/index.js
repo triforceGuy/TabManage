@@ -9,7 +9,7 @@ function Homepage() {
           <HomepageContent>
               <HomepageItems>
                 <HomepageH1>Tab Manager</HomepageH1>
-                <HomepageP>For all of your tab management needs</HomepageP>
+                <HomepageP>For all of your tab management needs!</HomepageP>
                 <HomepageBtn>Download</HomepageBtn>
               </HomepageItems>
           </HomepageContent>
