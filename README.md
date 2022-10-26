@@ -70,6 +70,17 @@ Future Features:
 
 Since our Tab Manager is not currently available on the Chrome Extensions store, in order to access the Tab Manager Google Chrome Extension you must go to Manage Extensions on your Chrome Browser and allow Developer Mode on the top right corner. 
 
+	Step 1: Download all files from link 
+	Step 2: Open the chrome browser 
+	Step 3: Click the settings in the top right (the three verticle dots) 
+	Step 4: Hover above the "more tools" and select "extensions" 
+	Step 5: Click "Load Unpacked" and navigate to file you saved from the link and select it.
+
+At this point a puzzle piece will appear on the chrome browser (just to the right of the bookmark star) if no other extensions have been installed.
+
+To start the extension, click the puzzle piece and select the tab organizer extension that you just installed.
+
+The URL FOLLOWS: https://mega.nz/folder/FP9GHCaB#VKAeIFjGuQTpnI9XTIc3eQ
 
 ## Project Status
 Project is: _in progress_ We are currently at the beginning of Sprint 2 out of a total of 3 Sprints.
@@ -92,7 +103,7 @@ Contributions
 
 - **Nick**:
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-65?atlOrigin=eyJpIjoiNmRkODcyMjFjNmZiNGFiMzk3NGQ3YTBlMjBmMjhhYTAiLCJwIjoiaiJ9">`TAB-65 - Create a function that checks if admins passwords is correct`</a>
-		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/3422b4d483ead50d170635fe8d36264d0337eb29
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/92edead783b40754669ca7fa43e83ad6eceeab97
 	- <a href = "https://cs3398f22cardassians.atlassian.net/browse/TAB-74?atlOrigin=eyJpIjoiMDJjMzk4YTBkM2E0NGY2ZDgxYTliNGE1NDBmOGYyNjYiLCJwIjoiaiJ9">`TAB-74 - Create a link in tab options to login as an admin`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/3422b4d483ead50d170635fe8d36264d0337eb29
 	- <a href = "https://cs3398f22cardassians.atlassian.net/browse/TAB-70?atlOrigin=eyJpIjoiMmY5OGJhZWRjYzc0NGI2MWFiOTE4ODY0ZmQyZThkMzYiLCJwIjoiaiJ9">`TAB-70 - Create a function that requires user’s password to meet the login conditions`</a>
@@ -110,12 +121,12 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-41?atlOrigin=eyJpIjoiYzZiNzM1OTA0NjczNDA2M2IxZmEwOWRlNjc0YjEyZTgiLCJwIjoiaiJ9">`TAB-41 - Understand how Dark/Light theme interchange`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/78e42d224cee3f33eafd07a05a85102a3ee87421
 <br />
-- **Sarah**:
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-63?atlOrigin=eyJpIjoiOWNjNzU3OTdjMDAwNDIyNmI4ZDVkYWZkNjYwODhlMWEiLCJwIjoiaiJ9">`TAB-63 - Research how to make a login UI`</a>
+- **Sarah**: Created a very simple log in using react. Right now it works on a simple server and a simple database. 
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/src/TAB-63-research-how-to-make-a-log-in-ui/">`TAB-63 - Research how to make a login UI`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/f0db2396e424c2bddfc89644c58d67b1c2532be1
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-64?atlOrigin=eyJpIjoiOGQzODU4ODdmMjBlNDI0ZmEzNTJiMWYzY2Y1M2Q5YzgiLCJwIjoiaiJ9">`TAB-64 - Create a function that prompts a user to enter their username`</a>
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/src/TAB-64-create-a-function-that-prompts-a-/">`TAB-64 - Create a function that prompts a user to enter their username`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/f0db2396e424c2bddfc89644c58d67b1c2532be1
-	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-67?atlOrigin=eyJpIjoiOTNjY2IxZTc2ZGEzNGE5ZGE3MmYzZjhmYzljYjVhNDciLCJwIjoiaiJ9">`TAB-67 - Create function to match username and password`</a>
+	- <a href="https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/pull-requests/6/pull-request-login_sarah">`TAB-67 - Create function to match username and password`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/8cce8171f5cf3df3d75438ec8909a621575593a3
 <br />
 - **Bianca**:
@@ -126,49 +137,54 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-6?atlOrigin=eyJpIjoiYjdkZjQ3MDgxM2NhNGVkNzk3Y2E1NDgxZmY2OTdmMWEiLCJwIjoiaiJ9">`TAB-6 - Create a simple web page with Javascript and React that holds description of TAB organizer`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/fbfe659dc13aec11b438510fc299235e775761e2
 	- <a href="https://cs3398f22cardassians.atlassian.net/browse/TAB-40?atlOrigin=eyJpIjoiNGJkMmMzOWY3MzU1NGRiYmI3YWY4NzMzOWJmNjczMDAiLCJwIjoiaiJ9">`TAB-40 - Create CSS file with theme`</a>
-		- Reference
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/commits/8561fe9dc99037ad4d676597545dfc2f2c4c0b74
 
 
 <a name="next-steps"></a>
 ## Next Steps
-- Eri:
-- Sarah:
-- Nick
-- Jessy
-- Bianca
+- Eri:　I will work on research what is wrong with my feature I added (changing background image) and will fix it. 
+- Sarah: I will be working with Nick on integrating out login functions. Then work with improving the login system with a better database. 
+- Nick: I will be working with Sarah on finishing the login functions and connecting it with our app. In addition to this adding a registration   feature is important. 
+- Jessy: My part is going to create the buttons on the system settings page as well implement the new theme for our extension.
+- Bianca: I'll work closely with Jessy to implement the functionality and theme changes we presentented on in class. 
 
 <a name="retro"></a>
 ## Retrospective
 	- What Went Well?:
-		- 
-		-
-		-
-		-
-		Eri:
-		Sarah:
-		Nick:
-		Jessy:
-		Bianca:
+		- The whole team worked really together. 
+		- Our team knows how to accomplish a goal and everyone is held accountable.
+		- We have great communication when we do communicate.
+		- Nick: We learn well together because we all help each other out.
+		Eri: We could collaborate very well in terms of splitting tasks and communicate about tasks.
+		Sarah: I think our team has a good balance and we all respect and work well with each other.
+		Nick: I will be working with Sarah on finishing the login functions and connecting it with our app. In addition to this adding a registration feature is important. 
+		Jessy: I believe that our communication actually was really well for our first time working together. Everyone came together and helped one another when stuck with an issue. Really good team chemistry.
+		Bianca: I learned so much already about chrome extensions, the team really helped with this by showing me how to run/edit files.
 	- What can I do better?:
-		Eri:
-		Sarah:
-		Nick:
-		Jessy:
-		Bianca:
+		Eri: I have to understand more about the existing code. My first sprint took way longer than my estimate and did not work well due to the lack of knowleadge about REACT/HTML/Javascript/CSS.
+		Sarah: I can do better about actually pulling from the master and practicing git. 
+		Nick: I can split up my work into smaller parts in order to push more frequently. This sprint I had one large commit rather than smaller ones. One thing that can help me imporve upon this is doing a better job planning the code out better prior to working on it.
+		Jessy: I know that I can do better staying on top of the chat. I didn't have the notifications on for so long but just recently turned them on.
+		Bianca: I can stay on top of my tasks better. To make sure I implement this change, I will complete and move my tasks over throughout the week instead of at the very end.
 	- What Might Be Impeding Us from Performing Better?
+	Our team can benefit from communicating more often. It would also be helpful if we pulled from master so that we had less conflicts in our files. 
+	We can also do a better job at having more specific goals in mind when planning our sprint. Understanding the existing code and sharing our knowledge will also benefit us.
+	Our team can also benefit from a greater understanding of react in general.
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
+- Practicing git 
 - Improvement to be done 2
+- Planning out code in advance
 <a name="acknowledgements"></a>
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- Sarah created her login based on [this tutorial](https://contactmentor.com/login-form-react-js-code/).
+- Nick created his login based on (https://www.youtube.com/watch?v=91qEdc6dSUs)
 - Many thanks to...
 
 
