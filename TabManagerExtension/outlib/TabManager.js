@@ -179,6 +179,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			optionsActive: !!_this7.props.optionsActive,
 			filterTabs: filterTabs,
 			dupTabs: false,
+			imgTabs: false,
 			colorsActive: false };
 
 
@@ -552,7 +553,14 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 											className: "icon windowaction duplicates" + (this.state.dupTabs ? " enabled" : ""),
 											title: "Highlight Duplicates",
 											onClick: this.highlightDuplicates,
+											onMouseEnter: this.hoverIcon }),
+										
+										React.createElement("div", {
+											className: "icon windowaction imgreplacement" + (this.state.imgTabs ? " enabled" : ""),
+											title: "Replace Images",
+											onClick: this.highlightDuplicates,
 											onMouseEnter: this.hoverIcon })))))),
+	
 
 
 

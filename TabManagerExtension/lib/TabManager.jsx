@@ -115,6 +115,7 @@ class TabManager extends React.Component {
 			optionsActive: !!this.props.optionsActive,
 			filterTabs: filterTabs,
 			dupTabs: false,
+			imgTabs: false,
 			colorsActive: false
 		};
 
@@ -488,6 +489,12 @@ class TabManager extends React.Component {
 										className={"icon windowaction duplicates" + (this.state.dupTabs ? " enabled" : "")}
 										title="Highlight Duplicates"
 										onClick={this.highlightDuplicates}
+										onMouseEnter={this.hoverIcon}
+									/>
+									<div
+										className={"icon windowaction imgreplacement" + (this.state.imgTabs ? " enabled" : "")}
+										title="Replace Images"
+										//onClick={this.addWindow}
 										onMouseEnter={this.hoverIcon}
 									/>
 								</td>
