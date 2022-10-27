@@ -104,8 +104,8 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 						React.createElement("i", null, "By default: disabled"))),
 
 			
-			React.createElement("div", { className: "optionsBox" },
-				React.createElement("h4", null, "Window style"),
+			// React.createElement("div", { className: "optionsBox" },
+			// 	React.createElement("h4", null, "Window style"),
 				React.createElement("div", { className: "toggle-box" },
 					React.createElement("div", { className: "toggle" },
 						React.createElement("input", {
@@ -122,6 +122,25 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 		
 		
 					React.createElement("div", { className: "option-description" }, "Space mode, for working and looking cool doing it. ",
+						React.createElement("br", null),
+						React.createElement("i", null, "By default: disabled"))),
+
+				React.createElement("div", { className: "toggle-box" },
+					React.createElement("div", { className: "toggle" },
+						React.createElement("input", {
+							type: "checkbox",
+							onMouseEnter: this.props.ninetiesText,
+							onChange: this.props.toggleNineties,
+							checked: this.props.nineties,
+							id: "nineties_mode",
+							name: "nineties_mode" }),
+
+						React.createElement("label", { onMouseEnter: this.props.ninetiesText, htmlFor: "nineties_mode", style: { whiteSpace: "pre", lineHeight: "2rem" } })),
+
+					React.createElement("label", { className: "textlabel", htmlFor: "nineties_mode", style: { whiteSpace: "pre", lineHeight: "2rem" } }, "Nineties mode"),
+
+
+					React.createElement("div", { className: "option-description" }, "Nineties mode, for fly color options. ",
 						React.createElement("br", null),
 						React.createElement("i", null, "By default: disabled"))),
 
