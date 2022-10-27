@@ -108,6 +108,26 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 					React.createElement("div", { className: "toggle" },
 						React.createElement("input", {
 							type: "checkbox",
+							onMouseEnter: this.props.spaceText,
+							onChange: this.props.toggleSpace,
+							checked: this.props.space,
+							id: "space_mode",
+							name: "space_mode" }),
+		
+						React.createElement("label", { onMouseEnter: this.props.spaceText, htmlFor: "space_mode", style: { whiteSpace: "pre", lineHeight: "2rem" } })),
+		
+					React.createElement("label", { className: "textlabel", htmlFor: "space_mode", style: { whiteSpace: "pre", lineHeight: "2rem" } }, "Space mode"),
+		
+		
+					React.createElement("div", { className: "option-description" }, "Space mode, for working and looking cool doing it. ",
+						React.createElement("br", null),
+						React.createElement("i", null, "By default: disabled"))),
+		
+
+				React.createElement("div", { className: "toggle-box" },
+					React.createElement("div", { className: "toggle" },
+						React.createElement("input", {
+							type: "checkbox",
 							onMouseEnter: this.props.compactText,
 							onChange: this.props.toggleCompact,
 							checked: this.props.compact,
