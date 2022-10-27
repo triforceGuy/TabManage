@@ -103,8 +103,7 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 						React.createElement("br", null),
 						React.createElement("i", null, "By default: disabled"))),
 
-			React.createElement("div", { className: "optionsBox" },
-				React.createElement("h4", null, "Window style"),
+
 				React.createElement("div", { className: "toggle-box" },
 					React.createElement("div", { className: "toggle" },
 						React.createElement("input", {
@@ -374,7 +373,7 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 					React.createElement("h4", null, "Middle mouse button"),
 					React.createElement("div", { className: "option-description" }, "With the middle mouse button you can close a tab"),
 					React.createElement("h4", null, "[Enter / Return] button"),
-					React.createElement("div", { className: "option-description" }, "With the return button you can switch to the currently selected tab, or move multiple selected tabs to a new window")));
+					React.createElement("div", { className: "option-description" }, "With the return button you can switch to the currently selected tab, or move multiple selected tabs to a new window")))];
 
 
 
