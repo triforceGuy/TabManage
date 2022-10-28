@@ -5,10 +5,14 @@ export const HomepageContainer = styled.div`
     border: 1px solid #000;
     background-image: url(${ImgBg});
     background-size: cover;
-    height: 100vh;
-    max-height: 100%;
-    max-width: 100%;
-    width: 100vw;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 `;
 
 export const HomepageContent = styled.div`
@@ -32,6 +36,9 @@ export const HomepageItems = styled.div`
     text-transform: uppercase;
     line-heigh 1;
     font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 0;
 
     @media screen and (max-width: 650px){
         width: 100%;
