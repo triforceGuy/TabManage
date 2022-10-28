@@ -128,6 +128,26 @@ class TabOptions extends React.Component {
 					<div className="toggle">
 						<input
 							type="checkbox"
+							onMouseEnter={this.props.ninetiesText}
+							onChange={this.props.toggleNineties}
+							checked={this.props.nineties}
+							id="nineties_mode"
+							name="nineties_mode"
+						/>
+						<label onMouseEnter={this.props.ninetiesText} htmlFor="nineties_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }} />
+					</div>
+					<label className="textlabel" htmlFor="nineties_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }}>
+						Nineties mode
+					</label>
+					<div className="option-description">
+						Nineties mode, for fly color options. <br />
+						<i>By default: disabled</i>
+					</div>
+				</div>
+				<div className="toggle-box">
+					<div className="toggle">
+						<input
+							type="checkbox"
 							onMouseEnter={this.props.compactText}
 							onChange={this.props.toggleCompact}
 							checked={this.props.compact}
