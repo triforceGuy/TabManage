@@ -58,7 +58,7 @@ body.nineties .tab.selected.vertical:hover{
 	color: black;
 }
 body.nineties .tab.selected:hover{
-	background-color: #607268;
+	background-color: #eaa423;
 }
 body.nineties .tab-pinned, body.nineties .tab-highlighted, body.nineties .tab-selected {
 	background-color: #111;
@@ -106,23 +106,23 @@ body.nineties .window.top .taburl {
 }
 
 body.nineties .window.top input {
-	background: #009a88;
+	background: #f92793;
 	color: #fff;
 }
 body.nineties .window.searchbox{
-	background-color:#19272c;
+	background-color:#8523d5;
 }
 body.nineties .window.searchbox input,
 body.nineties .window-colors input,
 body.nineties .optionsBox input {
-	background-color:#19272c;
+	background-color:#8523d5;
 	color: white;
 }
 body.nineties .optionsBox {
-  background: #203238;
+  background: #8523d5;
 }
 body.nineties .hrSpan {
-	background-color: #333; color: #eee;
+	background-color: #8523d5; color: #eee;
 }
 body.nineties img {
   filter: invert(100%) hue-rotate(180deg);
@@ -140,14 +140,14 @@ body.nineties .icon.selected {
 }
 
 body.nineties .licenses {
-	background-color: #19272c;
+	background-color: #8523d5;
 	color: #fff;
 }
 
 body.nineties a {
-	color: #009a88;
+	color: #f92793;
 }
 
 body.nineties .editName:hover {
-	background-color: #444;
+	background-color: rgb(158, 40, 232);
 }
