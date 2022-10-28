@@ -1,3 +1,4 @@
+//this is for the dark banner that says registration
 import React from 'react';
 function Header() {
     return(
