@@ -15,13 +15,12 @@ const toggle = () => {
       <HomepageContainer>
         <Navbar toggle={toggle}/>
         <Sidebar isOpen={isOpen} toggle={toggle} />
-        <BottomBanner />
-        <decoration />  
+        <BottomBanner />  
           <HomepageContent>
               <HomepageItems>
                 <HomepageH1>Tab Manager</HomepageH1>
                 <HomepageP>For all of your tab management needs!</HomepageP>
-                <a href="https://mega.nz/folder/FP9GHCaB#VKAeIFjGuQTpnI9XTIc3eQ">
+                <a href="https://mega.nz/folder/wXsRXKqa#xj42Whl0p_rsXlXMHkEg8Q">
                 <HomepageBtn>Download</HomepageBtn>
                 </a>
               </HomepageItems>

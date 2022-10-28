@@ -3,9 +3,9 @@ import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SideBtn, SidebarBtn, Si
 import { Navigate } from 'react-router-dom';
 
 const Sidebar = ({isOpen, toggle}) => {
-  const [goToContact, setGoToContact] = React.useState(false);
+  const [goToSetUp, setGoToSetUp] = React.useState(false);
 
-  if(goToContact){
+  if(goToSetUp){
     return <Navigate to="/SetUp" />
   }
 
@@ -16,13 +16,13 @@ const Sidebar = ({isOpen, toggle}) => {
         </Icon>
         <SidebarMenu>
             <SideBtn onClick={() => {
-              setGoToContact(true);
+              setGoToSetUp(true);
             }}>How To Set Up</SideBtn>
             <SideBtn to='/'>Log In</SideBtn>
             <SideBtn to='/'>Updates (For Future)</SideBtn>
         </SidebarMenu>
         <SideBtnWrap>
-            <a href="https://mega.nz/folder/FP9GHCaB#VKAeIFjGuQTpnI9XTIc3eQ">
+            <a href="https://mega.nz/folder/wXsRXKqa#xj42Whl0p_rsXlXMHkEg8Q">
             <SidebarBtn to='/'>Download</SidebarBtn>
             </a>
         </SideBtnWrap>
