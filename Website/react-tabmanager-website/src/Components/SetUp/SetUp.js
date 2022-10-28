@@ -8,6 +8,8 @@ import Img2 from '../../images/TMWStep2.gif';
 import Img3 from '../../images/TMWStep3.gif';
 import Img4 from '../../images/TMWStep4.gif';
 
+/* I already merged my working code in the prior merge of this branch so it will not let me make a pull request. So I am making a comment to pull request.
+*/
 function SetUp() {
 const [isOpen, setIsOpen] = useState(false)
 
