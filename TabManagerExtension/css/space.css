@@ -1,0 +1,160 @@
+body.space,body.space #root,body.space #TMP {
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+}
+
+body.space .window{
+	background-color: #203238;
+}
+body.space .icon, body.space .iconoverlay{
+	border:1px solid #b2b2b2;
+	background-color: #07222b;
+}
+
+body.space input.tabtitle::placeholder, body.space input.taburl::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+body.space .window-colors {
+	background-color: #203238;
+}
+body.space .window-x {
+	background-color: #111;
+}
+
+body.space .icon.highlighted{
+	background-color: #333;
+}
+body.space .icon.incognito.highlighted{
+	background-color: #333;
+	border-color: yellow;
+}
+body.space .icon.selected .iconoverlay{
+	border-color: purple;
+}
+body.space .icon.pinned {
+	background-color: #FF117733;
+}
+
+body.space .window.incognito{
+	background-color:#111;
+}
+body.space .icon.vertical {
+	box-shadow: none;
+}
+body.space .icon.vertical:hover {
+	background-color:#111;
+}
+body.space .icon.pinned.vertical:hover {
+	background-color: #FF117788;
+}
+body.space .tab.selected {
+    background-color: yellow;
+    color: black;
+}
+body.space .tab.selected.vertical:hover{
+	background-color: yellow;
+	color: black;
+}
+body.space .tab.selected:hover{
+	background-color: #607268;
+}
+body.space .tab-pinned, body.space .tab-highlighted, body.space .tab-selected {
+	background-color: #111;
+	color: white;
+}
+body.space .icon.incognito.vertical {
+	background-color: #111111;
+	color: white;
+}
+body.space .icon.incognito.vertical.selected {
+	background-color: yellow;
+	color: black;
+}
+body.space .icon.incognito.vertical:hover {
+	background-color: purple;
+	color: orange;
+}
+body.space .icon .iconoverlay {
+	border: 0;
+	box-shadow: none;
+}
+body.space .icon.vertical .iconoverlay {
+	background-color: transparent;
+}
+body.space .windowaction:hover{
+	background-color: yellow;
+}
+body.space .tabaction:hover {
+	background-color:#111;
+}
+body.space .windowaction + .enabled{
+	background-color:#DDEEEE;
+}
+body.space .add:hover{
+	background-color: #111;
+}
+body.space .close:hover{
+	background-color: #111;
+}
+body.space .window.top {
+	color: #fff;
+}
+body.space .window.top .taburl {
+	color: #fff;
+}
+
+body.space .window.top input {
+	background: #cad3d2;
+	color: #fff;
+}
+body.space .window.searchbox{
+	background-color:#19272c;
+}
+body.space .window.searchbox input,
+body.space .window-colors input,
+body.space .optionsBox input {
+	background-color:#19272c;
+	color: white;
+}
+body.space .optionsBox {
+  background: #203238;
+}
+body.space .hrSpan {
+	background-color: #333; color: #eee;
+}
+body.space img {
+  filter: invert(100%) hue-rotate(180deg);
+  mix-blend-mode: difference;
+}
+
+body.space .icon {
+	background-blend-mode: difference;
+}
+/*body.dark .icon {
+	background-blend-mode: color-dodge;
+}*/
+body.space .icon.selected {
+	background-blend-mode: unset;
+}
+
+body.space .licenses {
+	background-color: #19272c;
+	color: #fff;
+}
+
+body.space a {
+	color: #e3e7e6;
+}
+
+body.space .editName:hover {
+	background-color: #444;
+}

@@ -45,22 +45,23 @@ export const SidebarMenu = styled.div`
     }
 `;
 
-export const SidebarLink = styled(Link)`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    text-decoration: none;
-    list-style: none;
+export const SideBtn = styled.button`
+    background: #EBBA45;
+    white-space: nowrap;
+    padding: 16px 64px;
+    color: #501214;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
     transition: .2s ease-in-out;
     text-decoration: none;
-    color: rgb(80, 18, 20);
-    cursor: pointer;
 
-    &:hover{
-        color: white;
-        transition: .2s ease-in-out;
-    }
+&:hover{
+    transition: .2s ease-in-out;
+    background: white;
+    color: rgb(80, 18, 20);
+}
 `;
 
 export const SideBtnWrap = styled.div`
