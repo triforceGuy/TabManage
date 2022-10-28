@@ -143,6 +143,7 @@ class TabManager extends React.Component {
 		this.importSessionsText = this.importSessionsText.bind(this);
 		this.openInOwnTabText = this.openInOwnTabText.bind(this);
 		this.pinTabs = this.pinTabs.bind(this);
+		this.imgreplace = this.imgreplace.bind(this);
 		this.rateExtension = this.rateExtension.bind(this);
 		this.scrollTo = this.scrollTo.bind(this);
 		this.search = this.search.bind(this);
@@ -494,7 +495,7 @@ class TabManager extends React.Component {
 									<div
 										className={"icon windowaction imgreplacement" + (this.state.imgTabs ? " enabled" : "")}
 										title="Replace Images"
-										//onClick={this.addWindow}
+										onClick={this.imgreplace}
 										onMouseEnter={this.hoverIcon}
 									/>
 								</td>
@@ -777,6 +778,12 @@ class TabManager extends React.Component {
 		this.state.hiddenCount = hiddenCount;
 		this.forceUpdate();
 	}
+	async imgreplace() {
+		this.setState({
+			topText: "Highlighted " + dup.length + " duplicate tabs",
+			bottomText: "Press enter to move them to a new window"});
+	}
+
 	search(e) {
 		var hiddenCount = this.state.hiddenCount || 0;
 		var searchQuery = e.target.value || "";
