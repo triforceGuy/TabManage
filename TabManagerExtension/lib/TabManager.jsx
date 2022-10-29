@@ -490,6 +490,16 @@ class TabManager extends React.Component {
 										onClick={this.highlightDuplicates}
 										onMouseEnter={this.hoverIcon}
 									/>
+									<div
+										className="icon windowaction pin"
+										title={
+											Object.keys(this.state.selection).length > 0
+												? "Change color of selected tabs\nWill change " + maybePluralize(Object.keys(this.state.selection).length, 'tab')
+												: "Change color of current Tab"
+										}
+										onClick={this.pinTabs}
+										onMouseEnter={this.hoverIcon}
+									/>
 								</td>
 							</tr>
 						</tbody>
