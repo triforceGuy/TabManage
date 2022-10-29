@@ -1,14 +1,15 @@
 body.nineties,body.nineties #root,body.nineties #TMP {
-	background-color: #f92793;
+	background-color: #e10086;
+	background-image: url("../images/glitterpink.gif");
 	color: #fff;
 }
 
 body.nineties .window{
-	background-color: #2f1f47;
+	background-color: #49297e;
 }
 body.nineties .icon, body.nineties .iconoverlay{
 	border:1px solid #b2b2b2;
-	background-color: #07222b;
+	background-color: #49297e;
 }
 
 body.nineties input.tabtitle::placeholder, body.nineties input.taburl::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -17,7 +18,7 @@ body.nineties input.tabtitle::placeholder, body.nineties input.taburl::placehold
 }
 
 body.nineties .window-colors {
-	background-color: #c51d88;
+	background-color: #e10086;
 }
 body.nineties .window-x {
 	background-color: #111;
@@ -28,17 +29,17 @@ body.nineties .icon.highlighted{
 }
 body.nineties .icon.incognito.highlighted{
 	background-color: #333;
-	border-color: yellow;
+	border-color: #fdfb76;
 }
 body.nineties .icon.selected .iconoverlay{
-	border-color: purple;
+	border-color: #49297e;
 }
 body.nineties .icon.pinned {
 	background-color: #FF117733;
 }
 
 body.nineties .window.incognito{
-	background-color:rgb(144, 25, 157);
+	background-color:#49297e;
 }
 body.nineties .icon.vertical {
 	box-shadow: none;
@@ -50,15 +51,15 @@ body.nineties .icon.pinned.vertical:hover {
 	background-color: #FF117788;
 }
 body.nineties .tab.selected {
-    background-color: yellow;
+    background-color: #fdfb76;
     color: black;
 }
 body.nineties .tab.selected.vertical:hover{
-	background-color: yellow;
+	background-color: #fdfb76;
 	color: black;
 }
 body.nineties .tab.selected:hover{
-	background-color: #eaa423;
+	background-color: 	#90dcff;
 }
 body.nineties .tab-pinned, body.nineties .tab-highlighted, body.nineties .tab-selected {
 	background-color: #111;
@@ -69,7 +70,7 @@ body.nineties .icon.incognito.vertical {
 	color: white;
 }
 body.nineties .icon.incognito.vertical.selected {
-	background-color: yellow;
+	background-color: #fdfb76;
 	color: black;
 }
 body.nineties .icon.incognito.vertical:hover {
@@ -84,7 +85,7 @@ body.nineties .icon.vertical .iconoverlay {
 	background-color: transparent;
 }
 body.nineties .windowaction:hover{
-	background-color: yellow;
+	background-color: #fdfb76;
 }
 body.nineties .tabaction:hover {
 	background-color:#111;
@@ -106,23 +107,23 @@ body.nineties .window.top .taburl {
 }
 
 body.nineties .window.top input {
-	background: #f92793;
+	background: #e10086;
 	color: #fff;
 }
 body.nineties .window.searchbox{
-	background-color:#8523d5;
+	background-color:#49297e;
 }
 body.nineties .window.searchbox input,
 body.nineties .window-colors input,
 body.nineties .optionsBox input {
-	background-color:#8523d5;
+	background-color:	#00db96;
 	color: white;
 }
 body.nineties .optionsBox {
-  background: #8523d5;
+  background: #49297e;
 }
 body.nineties .hrSpan {
-	background-color: #8523d5; color: #eee;
+	background-color: #49297e; color: #eee;
 }
 body.nineties img {
   filter: invert(100%) hue-rotate(180deg);
@@ -140,14 +141,14 @@ body.nineties .icon.selected {
 }
 
 body.nineties .licenses {
-	background-color: #8523d5;
+	background-color: #49297e;
 	color: #fff;
 }
 
 body.nineties a {
-	color: #f92793;
+	color: #e10086;
 }
 
 body.nineties .editName:hover {
-	background-color: rgb(158, 40, 232);
+	background-color: #49297e;
 }
