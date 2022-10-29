@@ -491,7 +491,7 @@ class TabManager extends React.Component {
 										onMouseEnter={this.hoverIcon}
 									/>
 									<div
-										className="icon windowaction pin"
+										className="icon windowaction tabcolor"
 										title={
 											Object.keys(this.state.selection).length > 0
 												? "Change color of selected tabs\nWill change " + maybePluralize(Object.keys(this.state.selection).length, 'tab')

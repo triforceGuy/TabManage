@@ -502,6 +502,9 @@ h1,h2,h3,h4,h5,h6 {
 .duplicates{
 	background-image:url(../images/duplicates.png);
 }
+.tabcolor{
+	background-image: url(../images/color-pallete.png);
+}
 .filter{
 	background-image:url(../images/show64.png);
 }
