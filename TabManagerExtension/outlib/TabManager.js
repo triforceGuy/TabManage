@@ -582,6 +582,15 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 											className: "icon windowaction duplicates" + (this.state.dupTabs ? " enabled" : ""),
 											title: "Highlight Duplicates",
 											onClick: this.highlightDuplicates,
+											onMouseEnter: this.hoverIcon }),
+
+										React.createElement("div", {
+											className: "icon windowaction tabcolor",
+											title:
+											Object.keys(this.state.selection).length > 0 ?
+											"Change color of selected tabs\nWill change " + maybePluralize(Object.keys(this.state.selection).length, 'tab') :
+											"Change color of current Tab",
+											onClick: this.pinTabs,												
 											onMouseEnter: this.hoverIcon })))))),
 
 
