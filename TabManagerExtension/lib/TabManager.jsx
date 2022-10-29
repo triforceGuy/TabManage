@@ -140,6 +140,7 @@ class TabManager extends React.Component {
 		this.compactText = this.compactText.bind(this);
 		this.darkText = this.darkText.bind(this);
 		this.spaceText = this.spaceText.bind(this);
+		this.ninetiesText = this.ninetiesText.bind(this);
 		this.deleteTabs = this.deleteTabs.bind(this);
 		this.discardTabs = this.discardTabs.bind(this);
 		this.donate = this.donate.bind(this);
@@ -403,6 +404,7 @@ class TabManager extends React.Component {
 						compactText={this.compactText}
 						darkText={this.darkText}
 						spaceText={this.spaceText}
+						ninetiesText = {this.ninetiesText}
 						tabActionsText={this.tabActionsText}
 						getTip={this.getTip}
 					/>
@@ -1549,6 +1551,23 @@ class TabManager extends React.Component {
 	spaceText() {
 		this.setState({
 			bottomText: "Space mode, for when you want a cool theme. Default : off"
+		});
+	}
+
+	toggleNineties() {
+		this.state.nineties = !this.state.nineties;
+		localStorage["nineties"] = this.state.nineties ? "1" : "0";
+		this.ninetiesText();
+		if (this.state.nineties) {
+			document.body.className = "nineties";
+		} else {
+			document.body.className = "";
+		}
+		this.forceUpdate();
+	}
+	ninetiesText() {
+		this.setState({
+			bottomText: "Nineties mode enables fly colors. Default : off"
 		});
 	}
 
