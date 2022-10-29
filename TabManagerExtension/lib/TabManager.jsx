@@ -28,6 +28,7 @@ class TabManager extends React.Component {
 		var compact = false;
 		var dark = false;
 		var space = false;
+		var nineties = fasle;
 		var tabactions = true;
 		var badge = true;
 		var sessionsFeature = false;
@@ -49,6 +50,7 @@ class TabManager extends React.Component {
 			if (typeof localStorage["compact"] === "undefined") localStorage["compact"] = "0";
 			if (typeof localStorage["dark"] === "undefined") localStorage["dark"] = "0";
 			if (typeof localStorage["space"] === "undefined") localStorage["space"] = "0";
+			if (typeof localStorage["nineties"] === "undefined") localStorage["nineties"] = "0";
 			if (typeof localStorage["tabactions"] === "undefined") localStorage["tabactions"] = "1";
 			if (typeof localStorage["badge"] === "undefined") localStorage["badge"] = "1";
 			if (typeof localStorage["sessionsFeature"] === "undefined") localStorage["sessionsFeature"] = "0";
@@ -66,6 +68,7 @@ class TabManager extends React.Component {
 			compact = this.toBoolean(localStorage["compact"]);
 			dark = this.toBoolean(localStorage["dark"]);
 			space = this.toBoolean(localStorage["space"]);
+			nineties = this.toBoolean(localStorage["nineties"]);
 			tabactions = this.toBoolean(localStorage["tabactions"]);
 			badge = this.toBoolean(localStorage["badge"]);
 			sessionsFeature = this.toBoolean(localStorage["sessionsFeature"]);
@@ -81,6 +84,11 @@ class TabManager extends React.Component {
 
 		if (space) {
 			document.body.className = "space";
+		} else {
+			document.body.className = "";
+		}
+		if (nineties) {
+			document.body.className = "nineties";
 		} else {
 			document.body.className = "";
 		}
@@ -102,6 +110,7 @@ class TabManager extends React.Component {
 			compact: compact,
 			dark: dark,
 			space: space,
+			nineties: nineties,
 			tabactions: tabactions,
 			badge: badge,
 			hideWindows: hideWindows,
@@ -168,6 +177,7 @@ class TabManager extends React.Component {
 		this.toggleCompact = this.toggleCompact.bind(this);
 		this.toggleDark = this.toggleDark.bind(this);
 		this.toggleSpace = this.toggleSpace.bind(this);
+		this.toggleNineties = this.toggleNineties.bind(this);
 		this.toggleFilterMismatchedTabs = this.toggleFilterMismatchedTabs.bind(this);
 		this.toggleHide = this.toggleHide.bind(this);
 		this.toggleOpenInOwnTab = this.toggleOpenInOwnTab.bind(this);
@@ -365,6 +375,7 @@ class TabManager extends React.Component {
 						compact={this.state.compact}
 						dark={this.state.dark}
 						space={this.state.space}
+						nineties={this.state.nineties}
 						animations={this.state.animations}
 						windowTitles={this.state.windowTitles}
 						tabLimit={this.state.tabLimit}
@@ -386,6 +397,7 @@ class TabManager extends React.Component {
 						toggleCompact={this.toggleCompact}
 						toggleDark={this.toggleDark}
 						toggleSpace={this.toggleSpace}
+						toggleNineties={this.toggleNineties}
 						toggleTabActions={this.toggleTabActions}
 						changeTabLimit={this.changeTabLimit}
 						changeTabWidth={this.changeTabWidth}
