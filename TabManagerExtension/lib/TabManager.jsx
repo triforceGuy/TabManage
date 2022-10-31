@@ -5,7 +5,7 @@ var browser = browser || chrome;
 class TabManager extends React.Component {
 	constructor(props) {
 		super(props);
-		/*
+		
 		var tabcolors = localStorage["tabColors"];
 		if (!!tabcolors) {
 			tabcolors = JSON.parse(tabcolors);
@@ -13,7 +13,7 @@ class TabManager extends React.Component {
 			tabcolors = {};
 		}
 		var tabcolor = tabcolors[this.props.window.id] || "default";
-		*/
+	
 		//this.update();
 
 		if (navigator.userAgent.search("Firefox") > -1) {
@@ -797,7 +797,7 @@ class TabManager extends React.Component {
 		this.state.hiddenCount = hiddenCount;
 		this.forceUpdate();
 	}
-	/*tabcolors(e) {
+	tabcolors(e) {
 		this.stopProp(e);
 		this.props.toggleColors(!this.state.colorActive, this.props.window.id);
 		this.setState({
@@ -826,7 +826,7 @@ class TabManager extends React.Component {
 			colorActive: !this.state.colorActive
 		});
 		this.props.parentUpdate();
-	} */      
+	}
 	search(e) {
 		var hiddenCount = this.state.hiddenCount || 0;
 		var searchQuery = e.target.value || "";

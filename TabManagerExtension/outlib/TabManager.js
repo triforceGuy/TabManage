@@ -71,6 +71,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 
 		//this.update();
 		var _this7 = _possibleConstructorReturn(this, (TabManager.__proto__ || Object.getPrototypeOf(TabManager)).call(this, props));
+
 		/*var tabcolors = localStorage["tabColors"];
 		if (!!tabcolors) {
 			tabcolors = JSON.parse(tabcolors);
@@ -78,6 +79,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			tabcolors = {};
 		}
 		var tabcolor = tabcolors[_this7.props.window.id] || "default";*/
+
 		if (navigator.userAgent.search("Firefox") > -1) {
 		} else {
 			var check = browser.permissions.contains({ permissions: ["system.display"] });
@@ -857,7 +859,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			this.state.hiddenCount = hiddenCount;
 			this.forceUpdate();
 		} }, 
-		/*{ key: "tabcolors", value: function tabcolors(e) {
+		{ key: "tabcolors", value: function tabcolors(e) {
 			this.stopProp(e);
 			this.props.toggleColors(!this.state.colorActive, this.props.window.id);
 			this.setState({
@@ -887,7 +889,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 				colorActive: !this.state.colorActive });
 
 			this.props.parentUpdate();
-		} },*/
+		} },
 		{ key: "search", value: function search(
 		e) {
 			var hiddenCount = this.state.hiddenCount || 0;
