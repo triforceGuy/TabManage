@@ -1,0 +1,8 @@
+Research on Mongo DB and how to connect it with the current website login page.
+
+I've been given a login to an old course so that I can study up on the modules and really learn step by step on how to set up the system. The content is mixed in with many other modules so I'm really going to be doing a whole class looking for the Mondo content. Hopefully after the semi-completion of this course, I can link our database with our website to help with the logins.
+
+-Update, I have created a login and am continuing the course. I know how to set up the basic layout of the database and understanding the application even more.The application differs from MSQL pretty drastically so the learning curve is pretty strong.
+
+-- Another Update, found out we are using Firebase instead of Mongo DB. So now I guess I will find out and get familiar with some of that material as well.
+
