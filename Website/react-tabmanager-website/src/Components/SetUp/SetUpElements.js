@@ -28,19 +28,19 @@ export const SetUpItems = styled.div`
 
 export const SetUpHeading = styled.h1`
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 2rem;
     letter-spacing: 3px;
     color: rgb(80, 18, 20);
 `;
 
 export const SetUpStepName = styled.h2`
-    font-size: 3rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     color: rgb(80, 18, 20);
 `;
 
 export const SetUpDesc = styled.p`
-    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-size: 1rem;
     margin-bottom: 2rem;
     color: rgb(80, 18, 20);
 `;

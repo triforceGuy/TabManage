@@ -37,7 +37,7 @@ export const HomepageItems = styled.div`
     line-heigh 1;
     font-weight: bold;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 0;
 
     @media screen and (max-width: 650px){
