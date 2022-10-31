@@ -13,6 +13,11 @@ class TabManager extends React.Component {
 			tabcolors = {};
 		}
 		var tabcolor = tabcolors[this.props.window.id] || "default";
+		this.state = {
+			colorActive: false,
+			color: color,
+			tabs: 0 
+		};
 	
 		//this.update();
 
@@ -225,7 +230,12 @@ class TabManager extends React.Component {
 		} else {
 			tabcolors = {};
 		}
-		var tabcolor = tabcolors[this.props.window.id] || "default";*/
+		var tabcolor = tabcolors[this.props.window.id] || "default";
+		_this2.state = {
+			colorActive: false,
+			color: color,
+			tabs: 0 
+		};*/
 
 		var hiddenCount = this.state.hiddenCount || 0;
 		var tabCount = this.state.tabCount || 0;
