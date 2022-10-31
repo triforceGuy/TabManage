@@ -5,6 +5,15 @@ var browser = browser || chrome;
 class TabManager extends React.Component {
 	constructor(props) {
 		super(props);
+		/*
+		var tabcolors = localStorage["tabColors"];
+		if (!!tabcolors) {
+			tabcolors = JSON.parse(tabcolors);
+		} else {
+			tabcolors = {};
+		}
+		var tabcolor = tabcolors[this.props.window.id] || "default";
+		*/
 		//this.update();
 
 		if (navigator.userAgent.search("Firefox") > -1) {
@@ -204,6 +213,14 @@ class TabManager extends React.Component {
 	}
 	render() {
 		var _this = this;
+
+		/*var tabcolors = localStorage["tabColors"];
+		if (!!tabcolors) {
+			tabcolors = JSON.parse(tabcolors);
+		} else {
+			tabcolors = {};
+		}
+		var tabcolor = tabcolors[this.props.window.id] || "default";*/
 
 		var hiddenCount = this.state.hiddenCount || 0;
 		var tabCount = this.state.tabCount || 0;
@@ -780,6 +797,36 @@ class TabManager extends React.Component {
 		this.state.hiddenCount = hiddenCount;
 		this.forceUpdate();
 	}
+	/*tabcolors(e) {
+		this.stopProp(e);
+		this.props.toggleColors(!this.state.colorActive, this.props.window.id);
+		this.setState({
+			colorActive: !this.state.colorActive
+		});
+		setTimeout(function() {
+			if(this.state.colorActive) {
+				this.refs.namebox.focus();
+			}
+		}.bind(this), 250);
+	}
+	tabchangeColors(a) {
+		this.setState(a);
+		var tabcolors = localStorage["tabColors"];
+		if (!!tabcolors) {
+			tabcolors = JSON.parse(tabcolors);
+		} else {
+			tabcolors = {};
+		}
+		tabcolors[this.props.window.id] = a.tabcolor;
+		localStorage["tabColors"] = JSON.stringify(tabcolors);
+	}
+	tabclosePopup() {
+		this.props.toggleColors(!this.state.colorActive, this.props.window.id);
+		this.setState({
+			colorActive: !this.state.colorActive
+		});
+		this.props.parentUpdate();
+	} */      
 	search(e) {
 		var hiddenCount = this.state.hiddenCount || 0;
 		var searchQuery = e.target.value || "";

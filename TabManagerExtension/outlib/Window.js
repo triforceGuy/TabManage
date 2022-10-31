@@ -628,9 +628,8 @@ Window = function (_React$Component) {_inherits(Window, _React$Component);
 									browser.windows.update(this.props.window.id, {
 										state: "normal" }));case 3:
 
-								this.props.parentUpdate();case 4:case "end":return _context4.stop();}}}, _callee4, this);}));function maximize(_x4) {return _ref4.apply(this, arguments);}return maximize;}() }, { key: "colors", value: function colors(
-
-		e) {
+								this.props.parentUpdate();case 4:case "end":return _context4.stop();}}}, _callee4, this);}));function maximize(_x4) {return _ref4.apply(this, arguments);}return maximize;}() }, 
+		{ key: "colors", value: function colors(e) {
 			this.stopProp(e);
 			this.props.toggleColors(!this.state.colorActive, this.props.window.id);
 			this.setState({
