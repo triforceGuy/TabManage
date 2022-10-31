@@ -18,7 +18,13 @@ function App() {
           Download Tab Manager
         </a>
       </header>
+      
+        <Header/>
+        <RegistrationForm/>
+
     </div>
+     
+
   );
 }
 
