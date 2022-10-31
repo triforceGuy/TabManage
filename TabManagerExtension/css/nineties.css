@@ -1,0 +1,154 @@
+body.nineties,body.nineties #root,body.nineties #TMP {
+	background-color: #e10086;
+	background-image: url("../images/glitterpink.gif");
+	color: #fff;
+}
+
+body.nineties .window{
+	background-color: #49297e;
+}
+body.nineties .icon, body.nineties .iconoverlay{
+	border:1px solid #b2b2b2;
+	background-color: #49297e;
+}
+
+body.nineties input.tabtitle::placeholder, body.nineties input.taburl::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+body.nineties .window-colors {
+	background-color: #e10086;
+}
+body.nineties .window-x {
+	background-color: #111;
+}
+
+body.nineties .icon.highlighted{
+	background-color: #333;
+}
+body.nineties .icon.incognito.highlighted{
+	background-color: #333;
+	border-color: #fdfb76;
+}
+body.nineties .icon.selected .iconoverlay{
+	border-color: #49297e;
+}
+body.nineties .icon.pinned {
+	background-color: #FF117733;
+}
+
+body.nineties .window.incognito{
+	background-color:#49297e;
+}
+body.nineties .icon.vertical {
+	box-shadow: none;
+}
+body.nineties .icon.vertical:hover {
+	background-color:#111;
+}
+body.nineties .icon.pinned.vertical:hover {
+	background-color: #FF117788;
+}
+body.nineties .tab.selected {
+    background-color: #fdfb76;
+    color: black;
+}
+body.nineties .tab.selected.vertical:hover{
+	background-color: #fdfb76;
+	color: black;
+}
+body.nineties .tab.selected:hover{
+	background-color: 	#90dcff;
+}
+body.nineties .tab-pinned, body.nineties .tab-highlighted, body.nineties .tab-selected {
+	background-color: #111;
+	color: white;
+}
+body.nineties .icon.incognito.vertical {
+	background-color: #111111;
+	color: white;
+}
+body.nineties .icon.incognito.vertical.selected {
+	background-color: #fdfb76;
+	color: black;
+}
+body.nineties .icon.incognito.vertical:hover {
+	background-color: purple;
+	color: orange;
+}
+body.nineties .icon .iconoverlay {
+	border: 0;
+	box-shadow: none;
+}
+body.nineties .icon.vertical .iconoverlay {
+	background-color: transparent;
+}
+body.nineties .windowaction:hover{
+	background-color: #fdfb76;
+}
+body.nineties .tabaction:hover {
+	background-color:#111;
+}
+body.nineties .windowaction + .enabled{
+	background-color:#DDEEEE;
+}
+body.nineties .add:hover{
+	background-color: #111;
+}
+body.nineties .close:hover{
+	background-color: #111;
+}
+body.nineties .window.top {
+	color: #fff;
+}
+body.nineties .window.top .taburl {
+	color: #fff;
+}
+
+body.nineties .window.top input {
+	background: #e10086;
+	color: #fff;
+}
+body.nineties .window.searchbox{
+	background-color:#49297e;
+}
+body.nineties .window.searchbox input,
+body.nineties .window-colors input,
+body.nineties .optionsBox input {
+	background-color:	#00db96;
+	color: white;
+}
+body.nineties .optionsBox {
+  background: #49297e;
+}
+body.nineties .hrSpan {
+	background-color: #49297e; color: #eee;
+}
+body.nineties img {
+  filter: invert(100%) hue-rotate(180deg);
+  mix-blend-mode: difference;
+}
+
+body.nineties .icon {
+	background-blend-mode: difference;
+}
+/*body.nineties .icon {
+	background-blend-mode: color-dodge;
+}*/
+body.nineties .icon.selected {
+	background-blend-mode: unset;
+}
+
+body.nineties .licenses {
+	background-color: #49297e;
+	color: #fff;
+}
+
+body.nineties a {
+	color: #e10086;
+}
+
+body.nineties .editName:hover {
+	background-color: #49297e;
+}

@@ -91,6 +91,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		var windowTitles = true;
 		var compact = false;
 		var dark = false;
+		var space = false;
+		var nineties = false;
 		var tabactions = true;
 		var badge = true;
 		var sessionsFeature = false;
@@ -111,6 +113,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			if (typeof localStorage["windowTitles"] === "undefined") localStorage["windowTitles"] = "1";
 			if (typeof localStorage["compact"] === "undefined") localStorage["compact"] = "0";
 			if (typeof localStorage["dark"] === "undefined") localStorage["dark"] = "0";
+			if (typeof localStorage["space"] === "undefined") localStorage["space"] = "0";
+			if (typeof localStorage["nineties"] === "undefined") localStorage["nineties"] = "0";
 			if (typeof localStorage["tabactions"] === "undefined") localStorage["tabactions"] = "1";
 			if (typeof localStorage["badge"] === "undefined") localStorage["badge"] = "1";
 			if (typeof localStorage["sessionsFeature"] === "undefined") localStorage["sessionsFeature"] = "0";
@@ -127,6 +131,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			windowTitles = _this7.toBoolean(localStorage["windowTitles"]);
 			compact = _this7.toBoolean(localStorage["compact"]);
 			dark = _this7.toBoolean(localStorage["dark"]);
+			space = _this7.toBoolean(localStorage["space"]);
+			nineties = _this7.toBoolean(localStorage["nineties"]);
 			tabactions = _this7.toBoolean(localStorage["tabactions"]);
 			badge = _this7.toBoolean(localStorage["badge"]);
 			sessionsFeature = _this7.toBoolean(localStorage["sessionsFeature"]);
@@ -136,6 +142,18 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 
 		if (dark) {
 			document.body.className = "dark";
+		} else {
+			document.body.className = "";
+		}
+
+		if (space) {
+			document.body.className = "space";
+		} else {
+			document.body.className = "";
+		}
+
+		if (nineties) {
+			document.body.className = "nineties";
 		} else {
 			document.body.className = "";
 		}
@@ -156,6 +174,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			tabHeight: tabHeight,
 			compact: compact,
 			dark: dark,
+			space: space,
+			nineties: nineties,
 			tabactions: tabactions,
 			badge: badge,
 			hideWindows: hideWindows,
@@ -193,6 +213,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		_this7.clearSelection = _this7.clearSelection.bind(_this7);
 		_this7.compactText = _this7.compactText.bind(_this7);
 		_this7.darkText = _this7.darkText.bind(_this7);
+		_this7.spaceText = _this7.spaceText.bind(_this7);
+		_this7.ninetiesText = _this7.ninetiesText.bind(_this7);
 		_this7.deleteTabs = _this7.deleteTabs.bind(_this7);
 		_this7.discardTabs = _this7.discardTabs.bind(_this7);
 		_this7.donate = _this7.donate.bind(_this7);
@@ -219,6 +241,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		_this7.toggleBadge = _this7.toggleBadge.bind(_this7);
 		_this7.toggleCompact = _this7.toggleCompact.bind(_this7);
 		_this7.toggleDark = _this7.toggleDark.bind(_this7);
+		_this7.toggleSpace = _this7.toggleSpace.bind(_this7);
+		_this7.toggleNineties = _this7.toggleNineties.bind(_this7);
 		_this7.toggleFilterMismatchedTabs = _this7.toggleFilterMismatchedTabs.bind(_this7);
 		_this7.toggleHide = _this7.toggleHide.bind(_this7);
 		_this7.toggleOpenInOwnTab = _this7.toggleOpenInOwnTab.bind(_this7);
@@ -415,6 +439,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 						React.createElement(TabOptions, {
 							compact: this.state.compact,
 							dark: this.state.dark,
+							space: this.state.space,
+							nineties: this.state.nineties,
 							animations: this.state.animations,
 							windowTitles: this.state.windowTitles,
 							tabLimit: this.state.tabLimit,
@@ -435,6 +461,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 							toggleWindowTitles: this.toggleWindowTitles,
 							toggleCompact: this.toggleCompact,
 							toggleDark: this.toggleDark,
+							toggleSpace: this.toggleSpace,
+							toggleNineties: this.toggleNineties,
 							toggleTabActions: this.toggleTabActions,
 							changeTabLimit: this.changeTabLimit,
 							changeTabWidth: this.changeTabWidth,
@@ -452,6 +480,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 							tabHeightText: this.tabHeightText,
 							compactText: this.compactText,
 							darkText: this.darkText,
+							spaceText: this.spaceText,
+							ninetiesText: this.ninetiesText,
 							tabActionsText: this.tabActionsText,
 							getTip: this.getTip })),
 
@@ -1590,6 +1620,38 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		{
 			this.setState({
 				bottomText: "Dark mode inverts the layout - better on the eyes. Default : off" });
+
+		} }, { key: "toggleSpace", value: function toggleSpace()
+		{
+			this.state.space = !this.state.space;
+			localStorage["space"] = this.state.space ? "1" : "0";
+			this.spaceText();
+			if (this.state.space) {
+				document.body.className = "space";
+			} else {
+				document.body.className = "";
+			}
+			this.forceUpdate();
+		} }, { key: "spaceText", value: function spaceText()
+		{
+			this.setState({
+				bottomText: "Space Mode, for working and looking cool doing it : Default : off" });
+
+		} }, { key: "toggleNineties", value: function toggleNineties()
+		{
+			this.state.nineties = !this.state.nineties;
+			localStorage["nineties"] = this.state.nineties ? "1" : "0";
+			this.ninetiesText();
+			if (this.state.nineties) {
+				document.body.className = "nineties";
+			} else {
+				document.body.className = "";
+			}
+			this.forceUpdate();
+		} }, { key: "ninetiesText", value: function ninetiesText()
+		{
+			this.setState({
+				bottomText: "Nineties mode, for fly color options. : Default : off" });
 
 		} }, { key: "toggleTabActions", value: function toggleTabActions()
 		{

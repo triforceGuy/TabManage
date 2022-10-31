@@ -1,0 +1,4 @@
+When working on this extension I thought it would be different from working on a webpage.
+After doing more research on https://developer.mozilla.org/en-US/docs/Web/CSS/background-image 
+and https://www.w3schools.com/csSref/pr_background-image.php and trying it out for myself, I realized that this
+web extension is very similar to a regular webpage. 
