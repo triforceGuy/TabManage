@@ -124,7 +124,8 @@ class TabManager extends React.Component {
 			optionsActive: !!this.props.optionsActive,
 			filterTabs: filterTabs,
 			dupTabs: false,
-			colorsActive: false
+			colorsActive: false,
+			colorActive: false
 		};
 
 		this.addWindow = this.addWindow.bind(this);
@@ -153,6 +154,10 @@ class TabManager extends React.Component {
 		this.pinTabs = this.pinTabs.bind(this);
 		this.rateExtension = this.rateExtension.bind(this);
 		this.scrollTo = this.scrollTo.bind(this);
+
+		this.tabcolors = this.tabcolors.bind(this);
+		this.tabclosePopup = this.tabclosePopup.bind(this);
+
 		this.search = this.search.bind(this);
 		this.sessionsText = this.sessionsText.bind(this);
 		this.sessionSync = this.sessionSync.bind(this);

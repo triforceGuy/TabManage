@@ -188,7 +188,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			optionsActive: !!_this7.props.optionsActive,
 			filterTabs: filterTabs,
 			dupTabs: false,
-			colorsActive: false };
+			colorsActive: false,
+			colorActive: false	};
 
 
 		_this7.addWindow = _this7.addWindow.bind(_this7);
@@ -217,6 +218,10 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		_this7.pinTabs = _this7.pinTabs.bind(_this7);
 		_this7.rateExtension = _this7.rateExtension.bind(_this7);
 		_this7.scrollTo = _this7.scrollTo.bind(_this7);
+
+		//_this7.tabcolors = _this7.tabcolors.bind(_this7);
+		//_this7.tabclosePopup = _this7.tabclosePopup.bind(_thi7);
+		
 		_this7.search = _this7.search.bind(_this7);
 		_this7.sessionsText = _this7.sessionsText.bind(_this7);
 		_this7.sessionSync = _this7.sessionSync.bind(_this7);
@@ -781,84 +786,119 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 									browser.runtime.getBackgroundPage());case 17:backgroundPage = _context5.sent;
 								backgroundPage.createWindowWithTabs(tabs);case 19:
 
-								if (!!window.inPopup) window.close();case 20:case "end":return _context5.stop();}}}, _callee5, this);}));function addWindow() {return _ref5.apply(this, arguments);}return addWindow;}() }, { key: "pinTabs", value: function () {var _ref6 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {var _this4, tabs, i, t;return regeneratorRuntime.wrap(function _callee6$(_context6) {while (1) {switch (_context6.prev = _context6.next) {case 0:
-
-
-								_this4 = this;
-								tabs = Object.keys(this.state.selection).
-								map(function (id) {
-									return _this4.state.tabsbyid[id];
-								}).
-								sort(function (a, b) {
-									return a.index - b.index;
-								});if (!
-								tabs.length) {_context6.next = 13;break;}
-								if (tabs[0].pinned) tabs.reverse();
-								i = 0;case 5:if (!(i < tabs.length)) {_context6.next = 11;break;}_context6.next = 8;return (
-									browser.tabs.update(tabs[i].id, { pinned: !tabs[0].pinned }));case 8:i++;_context6.next = 5;break;case 11:_context6.next = 19;break;case 13:_context6.next = 15;return (
-
-
-									browser.tabs.query({ currentWindow: true, active: true }));case 15:t = _context6.sent;if (!(
-								t && t.length > 0)) {_context6.next = 19;break;}_context6.next = 19;return (
-									browser.tabs.update(t[0].id, { pinned: !t[0].pinned }));case 19:case "end":return _context6.stop();}}}, _callee6, this);}));function pinTabs() {return _ref6.apply(this, arguments);}return pinTabs;}() }, { key: "highlightDuplicates", value: function highlightDuplicates(
-
-
-
-		e) {
-			this.state.selection = {};
-			this.state.hiddenTabs = {};
-			this.state.searchLen = 0;
-			this.state.dupTabs = !this.state.dupTabs;
-			this.refs.searchbox.value = "";
-			if (!this.state.dupTabs) {
-				this.state.hiddenCount = 0;
-				this.forceUpdate();
-				return;
-			}
-			var hiddenCount = this.state.hiddenCount || 0;
-			var idList = this.state.tabsbyid;
-			var dup = [];
-			for (var id in idList) {
-				var tab = this.state.tabsbyid[id];
-				for (var id2 in idList) {
-					if (id == id2) continue;
-					var tab2 = this.state.tabsbyid[id2];
-					if (tab.url == tab2.url) {
-						dup.push(id);
-						break;
+								if (!!window.inPopup) window.close();case 20:case "end":return _context5.stop();}}}, _callee5, this);}));function addWindow() {return _ref5.apply(this, arguments);}return addWindow;}() }, 
+		{
+			key: "pinTabs", value: function () {
+				var _ref6 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
+					var _this4, tabs, i, t;
+					return regeneratorRuntime.wrap(function _callee6$(_context6){
+						while (1) {
+							switch (_context6.prev = _context6.next) {
+								case 0:
+									_this4 = this;
+									tabs = Object.keys(this.state.selection).map(function (id) { return _this4.state.tabsbyid[id] }).sort(function (a, b) { return a.index - b.index; });
+									if (!tabs.length) {_
+										context6.next = 13;
+										break;
+									}
+									if (tabs[0].pinned) 
+										tabs.reverse();
+									i = 0;
+								case 5:
+									if (!(i < tabs.length)) {
+										_context6.next = 11;
+										break;
+									}
+									_context6.next = 8;
+									return (browser.tabs.update(tabs[i].id, { pinned: !tabs[0].pinned }));
+								case 8:
+									i++;
+									_context6.next = 5;
+									break;
+								case 11:
+									_context6.next = 19;
+									break;
+								case 13:
+									_context6.next = 15;
+									return (browser.tabs.query({ currentWindow: true, active: true }));
+								case 15:
+									t = _context6.sent;
+									if (!(t && t.length > 0)) {
+										_context6.next = 19;
+										break;
+									}
+									_context6.next = 19;
+									return (browser.tabs.update(t[0].id, { pinned: !t[0].pinned }));
+								case 19:
+									case "end":
+									return _context6.stop();
+							}
+						}
+					}, 
+					_callee6, this);
+				}));
+				function pinTabs() {return _ref6.apply(this, arguments);}
+				return pinTabs;
+			}() 
+		}, 
+								
+		{ 
+			key: "highlightDuplicates", value: function highlightDuplicates(e) {
+				this.state.selection = {};
+				this.state.hiddenTabs = {};
+				this.state.searchLen = 0;
+				this.state.dupTabs = !this.state.dupTabs;
+				this.refs.searchbox.value = "";
+				if (!this.state.dupTabs) {
+					this.state.hiddenCount = 0;
+					this.forceUpdate();
+					return;
+				}
+				var hiddenCount = this.state.hiddenCount || 0;
+				var idList = this.state.tabsbyid;
+				var dup = [];
+				for (var id in idList) {
+					var tab = this.state.tabsbyid[id];
+					for (var id2 in idList) {
+						if (id == id2) continue;
+						var tab2 = this.state.tabsbyid[id2];
+						if (tab.url == tab2.url) {
+							dup.push(id);
+							break;
+						}
 					}
 				}
-			}
-			for (var id in dup) {
-				this.state.searchLen++;
-				hiddenCount -= this.state.hiddenTabs[dup[id]] || 0;
-				this.state.selection[dup[id]] = true;
-				delete this.state.hiddenTabs[dup[id]];
-				this.state.lastSelect = dup[id];
-			}
-			for (var id in idList) {
-				var tab = this.state.tabsbyid[id];
-				if (dup.indexOf(id) === -1) {
-					hiddenCount += 1 - (this.state.hiddenTabs[id] || 0);
-					this.state.hiddenTabs[id] = true;
-					delete this.state.selection[id];
-					this.state.lastSelect = id;
+				for (var id in dup) {
+					this.state.searchLen++;
+					hiddenCount -= this.state.hiddenTabs[dup[id]] || 0;
+					this.state.selection[dup[id]] = true;
+					delete this.state.hiddenTabs[dup[id]];
+					this.state.lastSelect = dup[id];
 				}
-			}
-			if (dup.length == 0) {
-				this.setState({
-					topText: "No duplicates found",
-					bottomText: " " });
-
-			} else {
-				this.setState({
-					topText: "Highlighted " + dup.length + " duplicate tabs",
-					bottomText: "Press enter to move them to a new window" });
-
-			}
-			this.state.hiddenCount = hiddenCount;
-			this.forceUpdate();
-		} }, 
+				for (var id in idList) {
+					var tab = this.state.tabsbyid[id];
+					if (dup.indexOf(id) === -1) {
+						hiddenCount += 1 - (this.state.hiddenTabs[id] || 0);
+						this.state.hiddenTabs[id] = true;
+						delete this.state.selection[id];
+						this.state.lastSelect = id;
+					}
+				}
+				if (dup.length == 0) {
+					this.setState({
+						topText: "No duplicates found",
+						bottomText: " " });
+				} 
+				else {
+					this.setState({
+						topText: "Highlighted " + dup.length + " duplicate tabs",
+						bottomText: "Press enter to move them to a new window"
+				 	});
+				}
+				this.state.hiddenCount = hiddenCount;
+				this.forceUpdate();
+			} 
+		}, 
 		{ key: "tabcolors", value: function tabcolors(e) {
 			this.stopProp(e);
 			this.props.toggleColors(!this.state.colorActive, this.props.window.id);
@@ -870,7 +910,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 					this.refs.namebox.focus();
 				}
 			}.bind(this), 250);
-		} }, { key: "tabchangeColors", value: function changeColors(
+		} }, 
+		{ key: "tabchangeColors", value: function changeColors(
 		a) {
 			this.setState(a);
 			var tabcolors = localStorage["tabColors"];
