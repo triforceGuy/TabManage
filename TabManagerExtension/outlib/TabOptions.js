@@ -198,20 +198,8 @@ TabOptions = function (_React$Component) {_inherits(TabOptions, _React$Component
 
 					React.createElement("div", { className: "option-description" }, "Disables/enables window titles. ",
 						React.createElement("br", null),
-						React.createElement("i", null, "By default: enabled"))),
-
-				React.createElement("div", { className: "App"},
-					React.createElement("input", {
-							type: "file",
-							accept: "image/",
-							id:  "background_image",
-							name: "background_image"}),
-
-					React.createElement("label", { className: "textlabel", htmlFor: "background_image", style: { whiteSpave: "pre", lineHeight: "2rem"} }, "Background image"),
-					
-					React.createElement("div", { className: "option-description" }, "Change the background image. "))),
+						React.createElement("i", null, "By default: enabled"))),),
 		
-
 			React.createElement("div", { className: "optionsBox" },
 				React.createElement("h4", null, "Session Management"),
 				React.createElement("div", { className: "toggle-box" },

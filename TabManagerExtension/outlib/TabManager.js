@@ -199,6 +199,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			optionsActive: !!_this7.props.optionsActive,
 			filterTabs: filterTabs,
 			dupTabs: false,
+			imgTabs: false,
 			colorsActive: false };
 
 
@@ -228,6 +229,7 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		_this7.importSessionsText = _this7.importSessionsText.bind(_this7);
 		_this7.openInOwnTabText = _this7.openInOwnTabText.bind(_this7);
 		_this7.pinTabs = _this7.pinTabs.bind(_this7);
+		//_this7.imgreplace = _this7.imgreplace.bind(_this7);
 		_this7.rateExtension = _this7.rateExtension.bind(_this7);
 		_this7.scrollTo = _this7.scrollTo.bind(_this7);
 		_this7.search = _this7.search.bind(_this7);
@@ -253,7 +255,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 		_this7.update = _this7.update.bind(_this7);
 		_this7.windowTitlesText = _this7.windowTitlesText.bind(_this7);return _this7;
 
-	}_createClass(TabManager, [{ key: "componentWillMount", value: function componentWillMount()
+	}
+	_createClass(TabManager, [{ key: "componentWillMount", value: function componentWillMount()
 		{
 			this.update();
 		} }, { key: "hoverHandler", value: function hoverHandler(
@@ -273,7 +276,14 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			15000);
 
 			//this.update();
-		} }, { key: "hoverIcon", value: function hoverIcon(
+		} }, 
+		{ key: "imgreplace", value: function imgreplace() {
+				this.setState({ topText: "Boohooo"})
+				this.setState({ bottomText: "Bottom Boohoo"})
+				//this.update()
+				this.forceUpdate();
+		} },	
+		{ key: "hoverIcon", value: function hoverIcon(
 		e) {
 			var text = "";
 			if (e && e.target && e.target.title) {
@@ -289,7 +299,8 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			this.setState({ bottomText: bottom });
 			//this.update();
 			this.forceUpdate();
-		} }, { key: "render", value: function render()
+		}
+	 }, { key: "render", value: function render()
 		{
 			var _this = this;
 
@@ -591,7 +602,14 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 											"Change color of selected tabs\nWill change " + maybePluralize(Object.keys(this.state.selection).length, 'tab') :
 											"Change color of current Tab",
 											onClick: this.pinTabs,												
+											onMouseEnter: this.hoverIcon }),
+										
+										React.createElement("div", {
+											className: "icon windowaction imgreplacement" + (this.state.imgTabs ? " enabled" : ""),
+											title: "Replace Images",
+											onClick: this.imgreplace,
 											onMouseEnter: this.hoverIcon })))))),
+	
 
 
 
