@@ -108,6 +108,46 @@ class TabOptions extends React.Component {
 					<div className="toggle">
 						<input
 							type="checkbox"
+							onMouseEnter={this.props.spaceText}
+							onChange={this.props.toggleSpace}
+							checked={this.props.space}
+							id="space_mode"
+							name="space_mode"
+						/>
+						<label onMouseEnter={this.props.spaceText} htmlFor="space_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }} />
+					</div>
+					<label className="textlabel" htmlFor="space_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }}>
+						Space mode
+					</label>
+					<div className="option-description">
+						Space mode, for working and looking cool doing it. <br />
+						<i>By default: disabled</i>
+					</div>
+				</div>
+				<div className="toggle-box">
+					<div className="toggle">
+						<input
+							type="checkbox"
+							onMouseEnter={this.props.ninetiesText}
+							onChange={this.props.toggleNineties}
+							checked={this.props.nineties}
+							id="nineties_mode"
+							name="nineties_mode"
+						/>
+						<label onMouseEnter={this.props.ninetiesText} htmlFor="nineties_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }} />
+					</div>
+					<label className="textlabel" htmlFor="nineties_mode" style={{ whiteSpace: "pre", lineHeight: "2rem" }}>
+						Nineties mode
+					</label>
+					<div className="option-description">
+						Nineties mode, for fly color options. <br />
+						<i>By default: disabled</i>
+					</div>
+				</div>
+				<div className="toggle-box">
+					<div className="toggle">
+						<input
+							type="checkbox"
 							onMouseEnter={this.props.compactText}
 							onChange={this.props.toggleCompact}
 							checked={this.props.compact}
