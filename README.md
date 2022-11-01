@@ -180,8 +180,7 @@ Contributions
 <br />
 
 - **Eri**:
-	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-90> 
-		`TAB-90 - Create button to change the color of tabs`</a>
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-90"> `TAB-90 - Create button to change the color of tabs`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-90-Create-functions-that-color-of-tab-icons
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-55" >`TAB-55 - Fix the theme uploading button`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/bugfix/TAB-55-Fixing-the-theme
