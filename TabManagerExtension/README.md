@@ -14,6 +14,7 @@ Our team is creating an extension that will allow users to organize their browse
 * [Sprint 1](#sprint1)
 * [Next Steps](#next-steps)
 * [Retrospective](#retro)
+* [Sprint 2](#sprint2)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -170,6 +171,64 @@ Contributions
 	Our team can benefit from communicating more often. It would also be helpful if we pulled from master so that we had less conflicts in our files. 
 	We can also do a better job at having more specific goals in mind when planning our sprint. Understanding the existing code and sharing our knowledge will also benefit us.
 	Our team can also benefit from a greater understanding of react in general.
+
+
+<a name="sprint2"></a>
+## Sprint 2
+Contributions
+	Sprint 2:
+<br />
+
+- **Eri**:
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-90> 
+		`TAB-90 - Create button to change the color of tabs`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-90-Create-functions-that-color-of-tab-icons
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-55" >`TAB-55 - Fix the theme uploading button`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/bugfix/TAB-55-Fixing-the-theme
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-93" >`TAB-93 - Research for the existing codes to modify color of tab icons`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/research/TAB-93-Reserch-for-change-tab-color 
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6303dd57bcb35371090ef30f&selectedIssue=TAB-84">`TAB-84 - Create a list that store categories which user will add`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-84-Create-a-list-that-store-categories
+
+- **Nick**:
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6308325c5a1dda769e3742a8&selectedIssue=TAB-83">`TAB-83 - Review webpage development`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-83-review-webpage-development
+	- <a href = "https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6308325c5a1dda769e3742a8&selectedIssue=TAB-81">`TAB-81 - Create webpage/homepage`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-81-create-webpage-homepage
+	- <a href = "https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6308325c5a1dda769e3742a8&selectedIssue=TAB-87">`TAB-87 - Create How To Set Up page`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-87-create-how-to-set-up-page
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6308325c5a1dda769e3742a8&selectedIssue=TAB-86">`TAB-86 -Create a form of navigation between pages`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-86-create-a-form-of-navigation-betwe
+<br />
+- **Jessy**:
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a137189e0a3a4ff2b22b&selectedIssue=TAB-79">`TAB-79 - Create .css file that changes the colors of the tab manager to a Space Theme`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-79-create-.css-file-that-changes-the
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a137189e0a3a4ff2b22b&selectedIssue=TAB-94">`TAB-94 - Research How to use Mongo for Database Implementation`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-94-research-how-to-use-mongo-for-dat
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a137189e0a3a4ff2b22b&selectedIssue=TAB-43">`TAB-43 - Create a button to toggle theme change`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-43-create-a-button-to-toggle-theme-c
+<br />
+- **Sarah**: Created a very simple log in using react. Right now it works on a simple server and a simple database. 
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-92">`TAB-92 - Create registration page`</a>
+		- 
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-66">`TAB-66 - create a function that prompts a user to register`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-66-create-a-function-that-prompts-a-
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-95">`TAB-67 - Refactor registration to website`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-95-refactor-registration-to-websit
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-91">`TAB-91 - Research how to make a regisration page`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/TAB-91-research-how-to-make-a-regisratio
+<br />
+- **Bianca**:
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-88">`TAB-88 - Create marketing materials and write up of 90's theme to add to webpage`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-88-create-marketing-materials-and-wr
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-96">`TAB-96 - Research if a gif can be added in the background of the extension`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-96-research-if-a-gif-can-be-added-in
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-40">`TAB-40 - Create CSS file with 90's theme for overall extension`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-40-create-css-file-with-90s-theme-fo
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-42">`TAB-42 - Add toggle button to extension to allow a change of theme`</a>
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-42-add-toggle-button-to-extension-to
+	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-80">`TAB-80 - Create CSS file with 90's theme for windows within extension`</a>
+	- 
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
