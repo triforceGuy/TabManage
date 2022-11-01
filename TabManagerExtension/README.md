@@ -230,6 +230,14 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-80">`TAB-80 - Create CSS file with 90's theme for windows within extension`</a>
 	- 
 
+	<a name="next-steps"></a>
+## Next Steps
+- Eri:　I will work on add color changing function on the button I created. After that, i will research how to sort tabs with colors
+- Sarah: 
+- Nick:
+- Jessy: 
+- Bianca: 
+
 <a name="room-for-improvement"></a>
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
