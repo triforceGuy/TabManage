@@ -260,7 +260,8 @@ Contributions
 		Sarah:
 		Nick:
 		Jessy:
-		Bianca:
+		Bianca: I can offer my help to teamates that are struggling with difficult tasks. I might not be able to solve the problem but we
+				can bounce ideas off of each other that would help.
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
