@@ -235,8 +235,10 @@ Contributions
 ## Next Steps
 - Eri:　I will work on add color changing function on the button I created. After that, I will research how to sort tabs with colors
 - Sarah: I will refactor my login and link it to the button Nick created on the webpage. Then I can link my registration page. 
-- Nick: I will be working on finishing the webpage's updates section. I will also be refactoring the stylized components to fit all screens rather than just my home pc. I will also work with Sarah as best I can to help her connect the login to the webpage.
-- Jessy: I honestly don't know what I want to do other than build a space ship. I will honeslty try to find other things to maybe come up with and ask my team members what kind of things I could work on and I can also brainstorm to find better optimizations for our project.
+- Nick: I will be working on finishing the webpage's updates section. I will also be refactoring the stylized components to fit all screens rather than just my home pc. 
+			I will also work with Sarah as best I can to help her connect the login to the webpage.
+- Jessy: I honestly don't know what I want to do other than build a space ship. I will honeslty try to find other things to maybe come up with and ask my team members what 
+			kind of things I could work on and I can also brainstorm to find better optimizations for our project.
 - Bianca: I will polish up the 90's glitter theme and create functionality so that you can only have one theme at a time. If time permits,
 			I'm also interested in helping Eri with how to sort tabs.
 
@@ -252,7 +254,8 @@ Contributions
 		Sarah: I think this sprint we were able to get a lot of the fundamentals needed down from a complex code base. Thanks to the help of Dr. Lehr I am finally able to pull from the master. 
 		Nick: I think that this sprint we did a better job of narrowing down 
 		what we want to work on. It felt like the first sprint we had a lot of ideas so we were scattered.
-		Jessy: Sprint 1 was the prototype of us working together. Our second sprint we really knew how to talk to each other and would talk after class more about changed and improvement. We ultimatly just did better in communication and also in teamwork. Our Slack is also really alive now, and we are daily, if not constantly, shooting messages to each other. 
+		Jessy: Sprint 1 was the prototype of us working together. Our second sprint we really knew how to talk to each other and would talk after class more about changed and improvement. 
+				We ultimatly just did better in communication and also in teamwork. Our Slack is also really alive now, and we are daily, if not constantly, shooting messages to each other. 
 		Bianca: I think we had more direction this sprint because of the research we did in sprint 1.
 	- What Might Be Impeding Us from Performing Better?
 	Our team can benefit from going to each other for help or learning together. Some parts of the
@@ -261,8 +264,10 @@ Contributions
 	- What can I do to improve?
 		Eri: I still need to understand better how to use gitKraken and how git works. I often commit/push/merge on wrong branches accidentally, and it took a good amount of time to fix these mistake
 		Sarah: I can make sure that now that I am able to pull from the master that I do so. And I code in my working directory and psuh more frequently. 
-		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
-		Jessy: I have only been sticking to my side of the project and not worrying or trying to understand what the other people are doing. I can do a better job of actually understanding what is going on so not only can I learn it, but do a better job presenting the content for our final sprint.
+		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically 
+				in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
+		Jessy: I have only been sticking to my side of the project and not worrying or trying to understand what the other people are doing. I can do a better job of actually understanding 
+				what is going on so not only can I learn it, but do a better job presenting the content for our final sprint.
 		Bianca: I can offer my help to teamates that are struggling with difficult tasks. I might not be able to solve the problem but we
 				can bounce ideas off of each other that would help.
 
