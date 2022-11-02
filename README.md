@@ -235,7 +235,7 @@ Contributions
 ## Next Steps
 - Eri:　I will work on add color changing function on the button I created. After that, I will research how to sort tabs with colors
 - Sarah: 
-- Nick:
+- Nick: I will be working on finishing the webpage's updates section. I will also be refactoring the stylized components to fit all screens rather than just my home pc. I will also work with Sarah as best I can to help her connect the login to the webpage.
 - Jessy: 
 - Bianca: I will polish up the 90's glitter theme and create functionality so that you can only have one theme at a time. If time permits,
 			I'm also interested in helping Eri with how to sort tabs.
@@ -245,10 +245,12 @@ Contributions
 	- What Went Well?:
 		- The team works well together. 
 		- The changes we made are visible and show progress. (Kudos to Nick for the cool webpage.)
+		- 
 		
 		Eri: 
 		Sarah: 
-		Nick: 
+		Nick: I think that this sprint we did a better job of narrowing down 
+		what we want to work on. It felt like the first sprint we had a lot of ideas so we were scattered.
 		Jessy: 
 		Bianca: I think we had more direction this sprint because of the research we did in sprint 1.
 	- What Might Be Impeding Us from Performing Better?
@@ -258,7 +260,7 @@ Contributions
 	- What can I do to improve?
 		Eri:
 		Sarah:
-		Nick:
+		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
 		Jessy:
 		Bianca: I can offer my help to teamates that are struggling with difficult tasks. I might not be able to solve the problem but we
 				can bounce ideas off of each other that would help.
