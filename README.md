@@ -15,6 +15,8 @@ Our team is creating an extension that will allow users to organize their browse
 * [Next Steps](#next-steps)
 * [Retrospective](#retro)
 * [Sprint 2](#sprint2)
+* [Next Steps Sprint 2](#next-steps2)
+* [Retrospective Sprint 2](#retro2)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -227,15 +229,38 @@ Contributions
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-42">`TAB-42 - Add toggle button to extension to allow a change of theme`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-42-add-toggle-button-to-extension-to
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306a120cf3340e8737fce10&selectedIssue=TAB-80">`TAB-80 - Create CSS file with 90's theme for windows within extension`</a>
-	- 
+	- Pushing to next sprint
 
-	<a name="next-steps"></a>
+	<a name="next-steps2"></a>
 ## Next Steps
-- Eri:　I will work on add color changing function on the button I created. After that, i will research how to sort tabs with colors
+- Eri:　I will work on add color changing function on the button I created. After that, I will research how to sort tabs with colors
 - Sarah: 
 - Nick:
 - Jessy: 
-- Bianca: 
+- Bianca: I will polish up the 90's glitter theme and create functionality so that you can only have one theme at a time. If time permits,
+			I'm also interested in helping Eri with how to sort tabs.
+
+<a name="retro2"></a>
+## Retrospective for Sprint 2
+	- What Went Well?:
+		- The team works well together. 
+		- The changes we made are visible and show progress. (Kudos to Nick for the cool webpage.)
+		
+		Eri: 
+		Sarah: 
+		Nick: 
+		Jessy: 
+		Bianca: I think we had more direction this sprint because of the research we did in sprint 1.
+	- What Might Be Impeding Us from Performing Better?
+	Our team can benefit from going to each other for help or learning together. Some parts of the
+	project are difficult to understand so if we leaned on each other for more support we would all
+	come out of this experience with more knowledge.
+	- What can I do to improve?
+		Eri:
+		Sarah:
+		Nick:
+		Jessy:
+		Bianca:
 
 <a name="room-for-improvement"></a>
 ## Room for Improvement
