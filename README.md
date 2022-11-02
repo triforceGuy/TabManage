@@ -246,6 +246,7 @@ Contributions
 		- The team works well together. 
 		- The changes we made are visible and show progress. (Kudos to Nick for the cool webpage.)
 		- We have made progress going through all the files from the original code. 
+		- As a team, we have a clear vision for our future implementations.
 		
 		Eri: 
 		Sarah: I think this sprint we were able to get a lot of the fundamentals needed down from a complex code base. Thanks to the help of Dr. Lehr I am finally able to pull from the master. 
