@@ -248,7 +248,7 @@ Contributions
 		- We have made progress going through all the files from the original code. 
 		- As a team, we have a clear vision for our future implementations.
 		
-		Eri: 
+		Eri: Thanks to Dr. Lehr's help/resources, I could go over our existing code and understand better in this sprint.
 		Sarah: I think this sprint we were able to get a lot of the fundamentals needed down from a complex code base. Thanks to the help of Dr. Lehr I am finally able to pull from the master. 
 		Nick: I think that this sprint we did a better job of narrowing down 
 		what we want to work on. It felt like the first sprint we had a lot of ideas so we were scattered.
@@ -259,7 +259,7 @@ Contributions
 	project are difficult to understand so if we leaned on each other for more support we would all
 	come out of this experience with more knowledge.
 	- What can I do to improve?
-		Eri:
+		Eri: I still need to understand better how to use gitKraken and how git works. I often commit/push/merge on wrong branches accidentally, and it took a good amount of time to fix these mistake
 		Sarah: I can make sure that now that I am able to pull from the master that I do so. And I code in my working directory and psuh more frequently. 
 		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
 		Jessy:
