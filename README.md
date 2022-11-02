@@ -211,7 +211,7 @@ Contributions
 <br />
 - **Sarah**: Created a very simple log in using react. Right now it works on a simple server and a simple database. 
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-92">`TAB-92 - Create registration page`</a>
-		- 
+		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/pull-requests/27
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-66">`TAB-66 - create a function that prompts a user to register`</a>
 		- https://bitbucket.org/cs3398f22cardassians/tab_manager_repo/branch/feature/TAB-66-create-a-function-that-prompts-a-
 	- <a href="https://cs3398f22cardassians.atlassian.net/jira/software/projects/TAB/boards/2?assignee=6306e296ec02b5f28b62f072&selectedIssue=TAB-95">`TAB-67 - Refactor registration to website`</a>
@@ -234,7 +234,7 @@ Contributions
 	<a name="next-steps2"></a>
 ## Next Steps
 - Eri:　I will work on add color changing function on the button I created. After that, I will research how to sort tabs with colors
-- Sarah: 
+- Sarah: I will refactor my login and link it to the button Nick created on the webpage. Then I can link my registration page. 
 - Nick: I will be working on finishing the webpage's updates section. I will also be refactoring the stylized components to fit all screens rather than just my home pc. I will also work with Sarah as best I can to help her connect the login to the webpage.
 - Jessy: 
 - Bianca: I will polish up the 90's glitter theme and create functionality so that you can only have one theme at a time. If time permits,
@@ -245,10 +245,10 @@ Contributions
 	- What Went Well?:
 		- The team works well together. 
 		- The changes we made are visible and show progress. (Kudos to Nick for the cool webpage.)
-		- 
+		- We have made progress going through all the files from the original code. 
 		
 		Eri: 
-		Sarah: 
+		Sarah: I think this sprint we were able to get a lot of the fundamentals needed down from a complex code base. Thanks to the help of Dr. Lehr I am finally able to pull from the master. 
 		Nick: I think that this sprint we did a better job of narrowing down 
 		what we want to work on. It felt like the first sprint we had a lot of ideas so we were scattered.
 		Jessy: 
@@ -259,7 +259,7 @@ Contributions
 	come out of this experience with more knowledge.
 	- What can I do to improve?
 		Eri:
-		Sarah:
+		Sarah: I can make sure that now that I am able to pull from the master that I do so. And I code in my working directory and psuh more frequently. 
 		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
 		Jessy:
 		Bianca: I can offer my help to teamates that are struggling with difficult tasks. I might not be able to solve the problem but we
