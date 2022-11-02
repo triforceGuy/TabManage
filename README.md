@@ -46,6 +46,8 @@ As our team took on the role of editing and modifying the tab extension, we real
 - 8.) React
 - 9.) Tab Manager Plus open source code that we will add features to: 
 		-https://github.com/chrome-extension/Tab-Manager-Plus
+- 10.) Firebase 
+
 
 
 
@@ -234,7 +236,7 @@ Contributions
 	<a name="next-steps2"></a>
 ## Next Steps
 - Eri:　I will work on add color changing function on the button I created. After that, I will research how to sort tabs with colors
-- Sarah: 
+- Sarah: I will refactor my login and link it to Nick's button on the webpage. Then I can link the registration to login. 
 - Nick: I will be working on finishing the webpage's updates section. I will also be refactoring the stylized components to fit all screens rather than just my home pc. I will also work with Sarah as best I can to help her connect the login to the webpage.
 - Jessy: 
 - Bianca: I will polish up the 90's glitter theme and create functionality so that you can only have one theme at a time. If time permits,
@@ -245,10 +247,10 @@ Contributions
 	- What Went Well?:
 		- The team works well together. 
 		- The changes we made are visible and show progress. (Kudos to Nick for the cool webpage.)
-		- 
+		- We have a working remote branch. 
 		
 		Eri: 
-		Sarah: 
+		Sarah: I think that this sprint we made a lot of preogress getiing the files to work. Thanks for Dr. Lehr I am finally able to pull the remote master to my machine. 
 		Nick: I think that this sprint we did a better job of narrowing down 
 		what we want to work on. It felt like the first sprint we had a lot of ideas so we were scattered.
 		Jessy: 
@@ -259,7 +261,7 @@ Contributions
 	come out of this experience with more knowledge.
 	- What can I do to improve?
 		Eri:
-		Sarah:
+		Sarah: I can work on pulling from the master and pushing more often. This sprint I had to force my files to the master, and that broke my gitkraken. It would be easier on everyone if I pull from the remonte and code in my working directory. 
 		Nick: I can improve upon making my pushes better quality. When I pushed to master I usually pushed before I was completely done with the task I was working on. I did this specifically in my create a form of navigation task. I made the sidebar but did not finish connecting it to the other pages before pushing it to master and then finished connecting it on my next task.
 		Jessy:
 		Bianca: I can offer my help to teamates that are struggling with difficult tasks. I might not be able to solve the problem but we
@@ -277,7 +279,7 @@ Room for improvement:
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- Sarah created her login based on [this tutorial](https://contactmentor.com/login-form-react-js-code/).
+- Sarah created her registration based on [this tutorial](https://www.section.io/engineering-education/registration-form-react.js-firebase/).
 - Nick created his login based on (https://www.youtube.com/watch?v=91qEdc6dSUs)
 - Many thanks to...
 
