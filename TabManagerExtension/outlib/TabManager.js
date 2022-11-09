@@ -83,7 +83,32 @@ TabManager = function (_React$Component) {_inherits(TabManager, _React$Component
 			colorActive: false,
 			color: color,
 			tabs: 0 
-		};*/
+		};
+		var hideWindow = true;
+		var tabs = this.props.tabs.map(function (tab) {
+                var isHidden = !!_this.props.hiddenTabs[tab.id] && _this.props.filterTabs;
+                var isSelected = !!_this.props.selection[tab.id];
+                hideWindow &= isHidden;
+                return (
+                    React.createElement(Tab, {
+                        key: "windowtab_" + _this.props.window.id + "_" + tab.id,
+                        window: _this.props.window,
+                        layout: _this.props.layout,
+                        tab: tab,
+                        selected: isSelected,
+                        hidden: isHidden,
+                        middleClick: _this.props.tabMiddleClick,
+                        hoverHandler: _this.props.hoverHandler,
+                        searchActive: _this.props.searchActive,
+                        select: _this.props.select,
+                        selectTo: _this.selectToFromTab,
+                        drag: _this.props.drag,
+                        drop: _this.props.drop,
+                        dropWindow: _this.props.dropWindow,
+                        ref: "tab" + tab.id,
+                        id: "tab-" + tab.id }));
+            });*/
+
 
 		if (navigator.userAgent.search("Firefox") > -1) {
 		} else {

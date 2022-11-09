@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-transform-react-jsx": "^7.19.0",
+    "@babel/preset-env": "^7.19.4"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
