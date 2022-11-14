@@ -1,0 +1,11 @@
+Research how to use javascript to populate a page
+
+I am doing this research with the purpose of learning how to populate the updates page by using javascript and json data.
+
+I expect to learn how to make functions that I can use to pass information to the required fields to populate a page in react. This research will affect how I approach creating the updates page. I believe that doing it this way will work best because in the future I will only need to change the json file in order to update this page as if this project were to continue it would need updated regularly.
+
+
+I expect to create an updates page that is populated with the aid of javascript. I will use this research to build the updates page.
+
+The tasks dependent on this research that I will do are.
+    1.) The updates page
