@@ -1,0 +1,5 @@
+Depending on what we saw with a professor, this extension uses some kind of auto-generation tool for the JS files. We need to understand how to create those files to succesfully add new functions in this extension.
+Professor provided us the tool calls "Babel" which is able to translate JSX files to pure JS files. If we see the files Babel generate, it looks very similar to the existing files in the lib folder.
+They seem to use this (or something similar) tool to translate their outlib foulder(jsx files they wrote) to lib folder(js files the tool translate).
+To use the tool, type command line "npx babel --watch lib --out-dir outlib" to continuously translate what we wrote in the files to outlib folder to the same file in the lib folder.
+This research will be very useful when we work on adding new feature like TAB-105 and TAB-104.
