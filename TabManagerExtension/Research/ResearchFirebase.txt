@@ -1,0 +1,12 @@
+Research how to use firebase to use it's real-time database
+
+I am doing this research with the intention of having a new user sign-up and have that information in a database. 
+
+
+I expect to learn how to use a database and have that database allow a user to login or signup 
+
+I expect to create a function that allows a user to popluate the database. 
+
+
+The tasks dependent on this research that I will do are.
+    1.) The signup and log-in forms 
