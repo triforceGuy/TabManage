@@ -1285,12 +1285,12 @@ class TabManager extends React.Component {
 			delete this.state.selection[id];
 			this.setState({
 				lastSelect: id
-			});
+			});//Delete the last tab user selected
 		} else {
 			this.state.selection[id] = true;
 			this.setState({
 				lastSelect: id
-			});
+			});//select the tab
 		}
 		this.scrollTo('tab', id);
 		var tab = this.state.tabsbyid[id];
