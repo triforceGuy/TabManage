@@ -1,0 +1,154 @@
+body.backgroundImage,body.backgrouundImage #root,body.BackgroundImage #TMP {
+	background-color: #e10086;
+	background-image: url("../images/glitterpink.gif");
+	color: #fff;
+}
+
+body.backgroundImage .window{
+	background-color: #49297e;
+}
+body.backgroundImage .icon, body.backgroundImage .iconoverlay{
+	border:1px solid #b2b2b2;
+	background-color: #49297e;
+}
+
+body.backgroundImage input.tabtitle::placeholder, body.backgroundImage input.taburl::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+body.backgroundImage .window-colors {
+	background-color: #e10086;
+}
+body.backgroundImage .window-x {
+	background-color: #111;
+}
+
+body.backgroundImage .icon.highlighted{
+	background-color: #333;
+}
+body.backgroundImage .icon.incognito.highlighted{
+	background-color: #333;
+	border-color: #fdfb76;
+}
+body.backgroundImage .icon.selected .iconoverlay{
+	border-color: #49297e;
+}
+body.backgroundImage .icon.pinned {
+	background-color: #FF117733;
+}
+
+body.backgroundImage .window.incognito{
+	background-color:#49297e;
+}
+body.backgroundImage .icon.vertical {
+	box-shadow: none;
+}
+body.backgroundImage .icon.vertical:hover {
+	background-color:#111;
+}
+body.backgroundImage .icon.pinned.vertical:hover {
+	background-color: #FF117788;
+}
+body.backgroundImage .tab.selected {
+    background-color: #fdfb76;
+    color: black;
+}
+body.backgroundImage .tab.selected.vertical:hover{
+	background-color: #fdfb76;
+	color: black;
+}
+body.backgroundImage .tab.selected:hover{
+	background-color: 	#90dcff;
+}
+body.backgroundImage .tab-pinned, body.backgroundImage .tab-highlighted, body.backgroundImage .tab-selected {
+	background-color: #111;
+	color: white;
+}
+body.backgroundImage .icon.incognito.vertical {
+	background-color: #111111;
+	color: white;
+}
+body.backgroundImage .icon.incognito.vertical.selected {
+	background-color: #fdfb76;
+	color: black;
+}
+body.backgroundImage .icon.incognito.vertical:hover {
+	background-color: purple;
+	color: orange;
+}
+body.backgroundImage .icon .iconoverlay {
+	border: 0;
+	box-shadow: none;
+}
+body.backgroundImage .icon.vertical .iconoverlay {
+	background-color: transparent;
+}
+body.backgroundImage .windowaction:hover{
+	background-color: #fdfb76;
+}
+body.backgroundImage .tabaction:hover {
+	background-color:#111;
+}
+body.backgroundImage .windowaction + .enabled{
+	background-color:#DDEEEE;
+}
+body.backgroundImage .add:hover{
+	background-color: #111;
+}
+body.backgroundImage .close:hover{
+	background-color: #111;
+}
+body.backgroundImage .window.top {
+	color: #fff;
+}
+body.backgroundImage .window.top .taburl {
+	color: #fff;
+}
+
+body.backgroundImage .window.top input {
+	background: #e10086;
+	color: #fff;
+}
+body.backgroundImage .window.searchbox{
+	background-color:#49297e;
+}
+body.backgroundImage .window.searchbox input,
+body.backgroundImage .window-colors input,
+body.backgroundImage .optionsBox input {
+	background-color:	#00db96;
+	color: white;
+}
+body.backgroundImage .optionsBox {
+  background: #49297e;
+}
+body.backgroundImage .hrSpan {
+	background-color: #49297e; color: #eee;
+}
+body.backgroundImage img {
+  filter: invert(100%) hue-rotate(180deg);
+  mix-blend-mode: difference;
+}
+
+body.backgroundImage .icon {
+	background-blend-mode: difference;
+}
+/*body.backgroundImage .icon {
+	background-blend-mode: color-dodge;
+}*/
+body.backgroundImage .icon.selected {
+	background-blend-mode: unset;
+}
+
+body.backgroundImage .licenses {
+	background-color: #49297e;
+	color: #fff;
+}
+
+body.backgroundImage a {
+	color: #e10086;
+}
+
+body.backgroundImage .editName:hover {
+	background-color: #49297e;
+}
